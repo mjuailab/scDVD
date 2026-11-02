@@ -1,0 +1,61 @@
+defaults:
+- model: scdvd
+- dataset: op3
+- training: paper
+- _self_
+dataset_name: op3
+seed: 42
+repeat: 1
+split: 1
+paths:
+  data_root: ${oc.env:SCDVD_DATA_ROOT,data}
+  output_root: ${oc.env:SCDVD_OUTPUT_ROOT,outputs}
+mask_training:
+  accelerator: gpu
+  batch_size: 32
+  devices: 1
+  log_every_n_steps: 50
+  mask_learning_rate: 0.01
+  mask_weight_decay: 0.01
+  max_epochs: 2
+  max_eval_samples: 2048
+  max_train_samples: null
+  num_workers: 2
+  pin_memory: true
+  precision: 32-true
+  run_id: ${dataset_name}_r${repeat}_s${split}_mask
+  save_dir: ${paths.output_root}
+  validation_fraction: 0.1
+  validation_seed: 42
+  validation_split: train
+evaluation:
+  require_paper_model: true
+  model_label: scDVD
+  apply_empirical_mask: true
+  cell_type: null
+  clip_absolute_each_step: false
+  ddim_steps: 50
+  device: auto
+  drug: null
+  guidance_scale: null
+  latent_source: noise
+  mask_feature_topk: 300
+  mask_high_threshold: 0.99
+  mask_low_threshold: 0.01
+  mask_topk_conditions: 1
+  match_real_count: true
+  max_conditions: null
+  max_real_cells: null
+  min_real_cells: 10
+  num_generated: 100
+  output_dir: ${paths.output_root}/${dataset_name}_r${repeat}_s${split}/${evaluation.split}
+  split: test
+  save_predictions: false
+checkpoint: null
+mask_checkpoint: null
+chemical_feature_path: ${model.chemical_feature_path}
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: ${paths.output_root}/hydra/${now:%Y-%m-%d_%H-%M-%S}

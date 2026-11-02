@@ -1,0 +1,4500 @@
+{
+  "test": [
+    {
+      "cell_type": "A549",
+      "drug": "2-Methoxyestradiol",
+      "dosage": 10.0,
+      "real_cells": 166
+    },
+    {
+      "cell_type": "A549",
+      "drug": "A-366",
+      "dosage": 0.1,
+      "real_cells": 241
+    },
+    {
+      "cell_type": "A549",
+      "drug": "ABT-737",
+      "dosage": 1.0,
+      "real_cells": 201
+    },
+    {
+      "cell_type": "A549",
+      "drug": "ABT-737",
+      "dosage": 10.0,
+      "real_cells": 159
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AC480",
+      "dosage": 1.0,
+      "real_cells": 234
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AC480",
+      "dosage": 10.0,
+      "real_cells": 237
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AG-14361",
+      "dosage": 10.0,
+      "real_cells": 233
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AG-490",
+      "dosage": 10.0,
+      "real_cells": 212
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AICAR",
+      "dosage": 0.01,
+      "real_cells": 272
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AMG-900",
+      "dosage": 10.0,
+      "real_cells": 180
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AR-42",
+      "dosage": 0.01,
+      "real_cells": 213
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AZ",
+      "dosage": 0.1,
+      "real_cells": 246
+    },
+    {
+      "cell_type": "A549",
+      "drug": "AZD1480",
+      "dosage": 0.1,
+      "real_cells": 214
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Abexinostat",
+      "dosage": 0.1,
+      "real_cells": 209
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Alisertib",
+      "dosage": 1.0,
+      "real_cells": 126
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Altretamine",
+      "dosage": 0.01,
+      "real_cells": 265
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Aminoglutethimide",
+      "dosage": 0.01,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Amisulpride",
+      "dosage": 1.0,
+      "real_cells": 237
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Anacardic",
+      "dosage": 0.1,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Anacardic",
+      "dosage": 1.0,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Andarine",
+      "dosage": 1.0,
+      "real_cells": 229
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Aurora",
+      "dosage": 0.01,
+      "real_cells": 238
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Aurora",
+      "dosage": 0.1,
+      "real_cells": 166
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Aurora",
+      "dosage": 1.0,
+      "real_cells": 214
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Avagacestat",
+      "dosage": 1.0,
+      "real_cells": 215
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Azacitidine",
+      "dosage": 1.0,
+      "real_cells": 230
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Azacitidine",
+      "dosage": 10.0,
+      "real_cells": 170
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BMS-265246",
+      "dosage": 0.1,
+      "real_cells": 244
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BMS-536924",
+      "dosage": 0.01,
+      "real_cells": 202
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BMS-536924",
+      "dosage": 10.0,
+      "real_cells": 139
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BMS-754807",
+      "dosage": 0.01,
+      "real_cells": 182
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BMS-754807",
+      "dosage": 0.1,
+      "real_cells": 216
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BMS-911543",
+      "dosage": 0.1,
+      "real_cells": 190
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BMS-911543",
+      "dosage": 1.0,
+      "real_cells": 219
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BRD4770",
+      "dosage": 0.01,
+      "real_cells": 271
+    },
+    {
+      "cell_type": "A549",
+      "drug": "BRD4770",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Bisindolylmaleimide",
+      "dosage": 0.1,
+      "real_cells": 184
+    },
+    {
+      "cell_type": "A549",
+      "drug": "CEP-33779",
+      "dosage": 0.01,
+      "real_cells": 243
+    },
+    {
+      "cell_type": "A549",
+      "drug": "CUDC-101",
+      "dosage": 0.01,
+      "real_cells": 271
+    },
+    {
+      "cell_type": "A549",
+      "drug": "CUDC-101",
+      "dosage": 10.0,
+      "real_cells": 157
+    },
+    {
+      "cell_type": "A549",
+      "drug": "CYC116",
+      "dosage": 0.1,
+      "real_cells": 210
+    },
+    {
+      "cell_type": "A549",
+      "drug": "CYC116",
+      "dosage": 1.0,
+      "real_cells": 153
+    },
+    {
+      "cell_type": "A549",
+      "drug": "CYC116",
+      "dosage": 10.0,
+      "real_cells": 150
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Capecitabine",
+      "dosage": 0.1,
+      "real_cells": 265
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Capecitabine",
+      "dosage": 1.0,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Cediranib",
+      "dosage": 0.01,
+      "real_cells": 269
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Cediranib",
+      "dosage": 10.0,
+      "real_cells": 161
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Cerdulatinib",
+      "dosage": 0.1,
+      "real_cells": 253
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Cimetidine",
+      "dosage": 0.01,
+      "real_cells": 282
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Clevudine",
+      "dosage": 0.01,
+      "real_cells": 288
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Clevudine",
+      "dosage": 0.1,
+      "real_cells": 217
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Costunolide",
+      "dosage": 0.01,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Costunolide",
+      "dosage": 0.1,
+      "real_cells": 245
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Costunolide",
+      "dosage": 10.0,
+      "real_cells": 244
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Crizotinib",
+      "dosage": 0.1,
+      "real_cells": 232
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Cyclocytidine",
+      "dosage": 0.01,
+      "real_cells": 231
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Danusertib",
+      "dosage": 1.0,
+      "real_cells": 140
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Decitabine",
+      "dosage": 1.0,
+      "real_cells": 201
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Disulfiram",
+      "dosage": 0.01,
+      "real_cells": 262
+    },
+    {
+      "cell_type": "A549",
+      "drug": "EED226",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "A549",
+      "drug": "EED226",
+      "dosage": 10.0,
+      "real_cells": 182
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ellagic",
+      "dosage": 10.0,
+      "real_cells": 194
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Entacapone",
+      "dosage": 10.0,
+      "real_cells": 254
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Entinostat",
+      "dosage": 10.0,
+      "real_cells": 213
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Enzastaurin",
+      "dosage": 0.01,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "A549",
+      "drug": "FLLL32",
+      "dosage": 0.1,
+      "real_cells": 184
+    },
+    {
+      "cell_type": "A549",
+      "drug": "FLLL32",
+      "dosage": 10.0,
+      "real_cells": 184
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Fedratinib",
+      "dosage": 0.01,
+      "real_cells": 246
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Fedratinib",
+      "dosage": 10.0,
+      "real_cells": 116
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Filgotinib",
+      "dosage": 10.0,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Fluorouracil",
+      "dosage": 0.1,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Fulvestrant",
+      "dosage": 0.01,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Fulvestrant",
+      "dosage": 1.0,
+      "real_cells": 205
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Fulvestrant",
+      "dosage": 10.0,
+      "real_cells": 277
+    },
+    {
+      "cell_type": "A549",
+      "drug": "GSK-LSD1",
+      "dosage": 0.01,
+      "real_cells": 234
+    },
+    {
+      "cell_type": "A549",
+      "drug": "GSK-LSD1",
+      "dosage": 0.1,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "A549",
+      "drug": "GSK-LSD1",
+      "dosage": 10.0,
+      "real_cells": 258
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Glesatinib?(MGCD265)",
+      "dosage": 0.1,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "A549",
+      "drug": "INO-1001",
+      "dosage": 0.01,
+      "real_cells": 179
+    },
+    {
+      "cell_type": "A549",
+      "drug": "IOX2",
+      "dosage": 0.1,
+      "real_cells": 235
+    },
+    {
+      "cell_type": "A549",
+      "drug": "ITSA-1",
+      "dosage": 10.0,
+      "real_cells": 218
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Iniparib",
+      "dosage": 0.01,
+      "real_cells": 140
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Iniparib",
+      "dosage": 0.1,
+      "real_cells": 188
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Iniparib",
+      "dosage": 1.0,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ivosidenib",
+      "dosage": 10.0,
+      "real_cells": 146
+    },
+    {
+      "cell_type": "A549",
+      "drug": "JNJ-7706621",
+      "dosage": 1.0,
+      "real_cells": 181
+    },
+    {
+      "cell_type": "A549",
+      "drug": "JQ1",
+      "dosage": 0.01,
+      "real_cells": 174
+    },
+    {
+      "cell_type": "A549",
+      "drug": "KW-2449",
+      "dosage": 0.01,
+      "real_cells": 240
+    },
+    {
+      "cell_type": "A549",
+      "drug": "KW-2449",
+      "dosage": 0.1,
+      "real_cells": 239
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ki16425",
+      "dosage": 0.01,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ki8751",
+      "dosage": 10.0,
+      "real_cells": 263
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Lapatinib",
+      "dosage": 0.01,
+      "real_cells": 280
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Lapatinib",
+      "dosage": 1.0,
+      "real_cells": 239
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Lapatinib",
+      "dosage": 10.0,
+      "real_cells": 134
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Lenalidomide",
+      "dosage": 0.1,
+      "real_cells": 250
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Lenalidomide",
+      "dosage": 1.0,
+      "real_cells": 229
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Lomustine",
+      "dosage": 1.0,
+      "real_cells": 271
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Lomustine",
+      "dosage": 10.0,
+      "real_cells": 216
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Luminespib",
+      "dosage": 0.1,
+      "real_cells": 164
+    },
+    {
+      "cell_type": "A549",
+      "drug": "MC1568",
+      "dosage": 0.01,
+      "real_cells": 207
+    },
+    {
+      "cell_type": "A549",
+      "drug": "MK-0752",
+      "dosage": 0.01,
+      "real_cells": 284
+    },
+    {
+      "cell_type": "A549",
+      "drug": "MK-0752",
+      "dosage": 1.0,
+      "real_cells": 244
+    },
+    {
+      "cell_type": "A549",
+      "drug": "MK-5108",
+      "dosage": 0.1,
+      "real_cells": 233
+    },
+    {
+      "cell_type": "A549",
+      "drug": "MK-5108",
+      "dosage": 1.0,
+      "real_cells": 238
+    },
+    {
+      "cell_type": "A549",
+      "drug": "MK-5108",
+      "dosage": 10.0,
+      "real_cells": 140
+    },
+    {
+      "cell_type": "A549",
+      "drug": "MLN8054",
+      "dosage": 10.0,
+      "real_cells": 128
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Maraviroc",
+      "dosage": 0.01,
+      "real_cells": 258
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Meprednisone",
+      "dosage": 0.1,
+      "real_cells": 232
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Meprednisone",
+      "dosage": 10.0,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Mesna",
+      "dosage": 0.01,
+      "real_cells": 235
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Mesna",
+      "dosage": 1.0,
+      "real_cells": 180
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Mocetinostat",
+      "dosage": 0.1,
+      "real_cells": 204
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Momelotinib",
+      "dosage": 0.01,
+      "real_cells": 268
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Momelotinib",
+      "dosage": 1.0,
+      "real_cells": 274
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Motesanib",
+      "dosage": 10.0,
+      "real_cells": 264
+    },
+    {
+      "cell_type": "A549",
+      "drug": "NVP-BSK805",
+      "dosage": 1.0,
+      "real_cells": 246
+    },
+    {
+      "cell_type": "A549",
+      "drug": "NVP-BSK805",
+      "dosage": 10.0,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Navitoclax",
+      "dosage": 0.1,
+      "real_cells": 257
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Navitoclax",
+      "dosage": 10.0,
+      "real_cells": 140
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Nilotinib",
+      "dosage": 0.01,
+      "real_cells": 230
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Nilotinib",
+      "dosage": 10.0,
+      "real_cells": 214
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Nintedanib",
+      "dosage": 1.0,
+      "real_cells": 270
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Obatoclax",
+      "dosage": 1.0,
+      "real_cells": 267
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Obatoclax",
+      "dosage": 10.0,
+      "real_cells": 199
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ofloxacin",
+      "dosage": 0.01,
+      "real_cells": 198
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ofloxacin",
+      "dosage": 10.0,
+      "real_cells": 188
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PCI-34051",
+      "dosage": 1.0,
+      "real_cells": 195
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PCI-34051",
+      "dosage": 10.0,
+      "real_cells": 149
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PD173074",
+      "dosage": 1.0,
+      "real_cells": 227
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PD98059",
+      "dosage": 0.1,
+      "real_cells": 258
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PD98059",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PF-3845",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PFI-1",
+      "dosage": 0.1,
+      "real_cells": 161
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PFI-1",
+      "dosage": 10.0,
+      "real_cells": 180
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PHA-680632",
+      "dosage": 1.0,
+      "real_cells": 154
+    },
+    {
+      "cell_type": "A549",
+      "drug": "PHA-680632",
+      "dosage": 10.0,
+      "real_cells": 148
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Panobinostat",
+      "dosage": 1.0,
+      "real_cells": 113
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Pelitinib",
+      "dosage": 10.0,
+      "real_cells": 176
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Pirarubicin",
+      "dosage": 0.01,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Pirarubicin",
+      "dosage": 10.0,
+      "real_cells": 131
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Pracinostat",
+      "dosage": 1.0,
+      "real_cells": 212
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Prednisone",
+      "dosage": 1.0,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Quercetin",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "A549",
+      "drug": "RG108",
+      "dosage": 10.0,
+      "real_cells": 279
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Raltitrexed",
+      "dosage": 10.0,
+      "real_cells": 203
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ramelteon",
+      "dosage": 1.0,
+      "real_cells": 280
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Regorafenib",
+      "dosage": 10.0,
+      "real_cells": 130
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Resveratrol",
+      "dosage": 0.1,
+      "real_cells": 187
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Resveratrol",
+      "dosage": 1.0,
+      "real_cells": 175
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Roscovitine",
+      "dosage": 0.1,
+      "real_cells": 221
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Rucaparib",
+      "dosage": 0.01,
+      "real_cells": 182
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Rucaparib",
+      "dosage": 1.0,
+      "real_cells": 178
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ruxolitinib",
+      "dosage": 1.0,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Ruxolitinib",
+      "dosage": 10.0,
+      "real_cells": 212
+    },
+    {
+      "cell_type": "A549",
+      "drug": "S-Ruxolitinib",
+      "dosage": 0.01,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "A549",
+      "drug": "S-Ruxolitinib",
+      "dosage": 0.1,
+      "real_cells": 259
+    },
+    {
+      "cell_type": "A549",
+      "drug": "S3I-201",
+      "dosage": 0.01,
+      "real_cells": 226
+    },
+    {
+      "cell_type": "A549",
+      "drug": "S3I-201",
+      "dosage": 1.0,
+      "real_cells": 222
+    },
+    {
+      "cell_type": "A549",
+      "drug": "SB431542",
+      "dosage": 1.0,
+      "real_cells": 205
+    },
+    {
+      "cell_type": "A549",
+      "drug": "SGI-1776",
+      "dosage": 0.01,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "A549",
+      "drug": "SL-327",
+      "dosage": 0.01,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "A549",
+      "drug": "SRT2104",
+      "dosage": 0.1,
+      "real_cells": 209
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Sirtinol",
+      "dosage": 10.0,
+      "real_cells": 260
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Sodium",
+      "dosage": 0.01,
+      "real_cells": 278
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Sodium",
+      "dosage": 0.1,
+      "real_cells": 237
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Sorafenib",
+      "dosage": 1.0,
+      "real_cells": 222
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Streptozotocin",
+      "dosage": 1.0,
+      "real_cells": 248
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TG101209",
+      "dosage": 0.01,
+      "real_cells": 212
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TGX-221",
+      "dosage": 0.1,
+      "real_cells": 230
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TMP195",
+      "dosage": 0.1,
+      "real_cells": 154
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TMP195",
+      "dosage": 10.0,
+      "real_cells": 186
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tacedinaline",
+      "dosage": 0.01,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tacedinaline",
+      "dosage": 0.1,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tazemetostat",
+      "dosage": 0.01,
+      "real_cells": 213
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tazemetostat",
+      "dosage": 1.0,
+      "real_cells": 189
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Temsirolimus",
+      "dosage": 0.1,
+      "real_cells": 131
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Thiotepa",
+      "dosage": 1.0,
+      "real_cells": 199
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tie2",
+      "dosage": 0.01,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tie2",
+      "dosage": 0.1,
+      "real_cells": 227
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tie2",
+      "dosage": 10.0,
+      "real_cells": 284
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tofacitinib",
+      "dosage": 0.01,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tofacitinib",
+      "dosage": 0.1,
+      "real_cells": 208
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Toremifene",
+      "dosage": 0.01,
+      "real_cells": 230
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tozasertib",
+      "dosage": 0.01,
+      "real_cells": 175
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Trametinib",
+      "dosage": 1.0,
+      "real_cells": 210
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tranylcypromine",
+      "dosage": 10.0,
+      "real_cells": 272
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Triamcinolone",
+      "dosage": 1.0,
+      "real_cells": 215
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Trichostatin",
+      "dosage": 0.1,
+      "real_cells": 227
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Trichostatin",
+      "dosage": 10.0,
+      "real_cells": 170
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tubastatin",
+      "dosage": 10.0,
+      "real_cells": 268
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tucidinostat",
+      "dosage": 10.0,
+      "real_cells": 194
+    },
+    {
+      "cell_type": "A549",
+      "drug": "UNC0379",
+      "dosage": 0.1,
+      "real_cells": 253
+    },
+    {
+      "cell_type": "A549",
+      "drug": "UNC1999",
+      "dosage": 0.01,
+      "real_cells": 212
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Valproic",
+      "dosage": 0.01,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Vandetanib",
+      "dosage": 0.01,
+      "real_cells": 254
+    },
+    {
+      "cell_type": "A549",
+      "drug": "WHI-P154",
+      "dosage": 0.01,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "A549",
+      "drug": "WP1066",
+      "dosage": 10.0,
+      "real_cells": 254
+    },
+    {
+      "cell_type": "A549",
+      "drug": "XAV-939",
+      "dosage": 0.01,
+      "real_cells": 231
+    },
+    {
+      "cell_type": "A549",
+      "drug": "XAV-939",
+      "dosage": 1.0,
+      "real_cells": 278
+    },
+    {
+      "cell_type": "A549",
+      "drug": "YM155",
+      "dosage": 0.1,
+      "real_cells": 73
+    },
+    {
+      "cell_type": "A549",
+      "drug": "YM155",
+      "dosage": 1.0,
+      "real_cells": 40
+    },
+    {
+      "cell_type": "A549",
+      "drug": "ZM",
+      "dosage": 0.01,
+      "real_cells": 203
+    },
+    {
+      "cell_type": "A549",
+      "drug": "ZM",
+      "dosage": 10.0,
+      "real_cells": 135
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Zileuton",
+      "dosage": 0.1,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "K562",
+      "drug": "2-Methoxyestradiol",
+      "dosage": 0.01,
+      "real_cells": 250
+    },
+    {
+      "cell_type": "K562",
+      "drug": "2-Methoxyestradiol",
+      "dosage": 0.1,
+      "real_cells": 246
+    },
+    {
+      "cell_type": "K562",
+      "drug": "2-Methoxyestradiol",
+      "dosage": 10.0,
+      "real_cells": 83
+    },
+    {
+      "cell_type": "K562",
+      "drug": "A-366",
+      "dosage": 1.0,
+      "real_cells": 269
+    },
+    {
+      "cell_type": "K562",
+      "drug": "A-366",
+      "dosage": 10.0,
+      "real_cells": 260
+    },
+    {
+      "cell_type": "K562",
+      "drug": "ABT-737",
+      "dosage": 0.1,
+      "real_cells": 260
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AC480",
+      "dosage": 0.01,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AC480",
+      "dosage": 0.1,
+      "real_cells": 241
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AG-14361",
+      "dosage": 1.0,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AG-490",
+      "dosage": 10.0,
+      "real_cells": 254
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AMG-900",
+      "dosage": 1.0,
+      "real_cells": 223
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AMG-900",
+      "dosage": 10.0,
+      "real_cells": 213
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AR-42",
+      "dosage": 0.01,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AR-42",
+      "dosage": 1.0,
+      "real_cells": 137
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AT9283",
+      "dosage": 0.01,
+      "real_cells": 215
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AZ",
+      "dosage": 0.01,
+      "real_cells": 249
+    },
+    {
+      "cell_type": "K562",
+      "drug": "AZD1480",
+      "dosage": 0.1,
+      "real_cells": 239
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Abexinostat",
+      "dosage": 10.0,
+      "real_cells": 96
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Alendronate",
+      "dosage": 0.1,
+      "real_cells": 249
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Alisertib",
+      "dosage": 1.0,
+      "real_cells": 204
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Alisertib",
+      "dosage": 10.0,
+      "real_cells": 125
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Altretamine",
+      "dosage": 0.01,
+      "real_cells": 279
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Altretamine",
+      "dosage": 1.0,
+      "real_cells": 268
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Aminoglutethimide",
+      "dosage": 0.1,
+      "real_cells": 265
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Amisulpride",
+      "dosage": 1.0,
+      "real_cells": 263
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Anacardic",
+      "dosage": 0.01,
+      "real_cells": 251
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Andarine",
+      "dosage": 0.01,
+      "real_cells": 252
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Andarine",
+      "dosage": 0.1,
+      "real_cells": 262
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Andarine",
+      "dosage": 10.0,
+      "real_cells": 266
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Azacitidine",
+      "dosage": 0.1,
+      "real_cells": 215
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Azacitidine",
+      "dosage": 1.0,
+      "real_cells": 183
+    },
+    {
+      "cell_type": "K562",
+      "drug": "BMS-536924",
+      "dosage": 1.0,
+      "real_cells": 300
+    },
+    {
+      "cell_type": "K562",
+      "drug": "BMS-911543",
+      "dosage": 0.1,
+      "real_cells": 200
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Barasertib",
+      "dosage": 1.0,
+      "real_cells": 180
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Barasertib",
+      "dosage": 10.0,
+      "real_cells": 179
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Baricitinib",
+      "dosage": 1.0,
+      "real_cells": 284
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Baricitinib",
+      "dosage": 10.0,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Bisindolylmaleimide",
+      "dosage": 0.01,
+      "real_cells": 287
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Bisindolylmaleimide",
+      "dosage": 1.0,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Bosutinib",
+      "dosage": 0.01,
+      "real_cells": 217
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Busulfan",
+      "dosage": 0.01,
+      "real_cells": 285
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Busulfan",
+      "dosage": 10.0,
+      "real_cells": 282
+    },
+    {
+      "cell_type": "K562",
+      "drug": "CEP-33779",
+      "dosage": 0.1,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "K562",
+      "drug": "CUDC-907",
+      "dosage": 0.01,
+      "real_cells": 158
+    },
+    {
+      "cell_type": "K562",
+      "drug": "CUDC-907",
+      "dosage": 1.0,
+      "real_cells": 113
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Capecitabine",
+      "dosage": 1.0,
+      "real_cells": 291
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Carmofur",
+      "dosage": 0.01,
+      "real_cells": 269
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Carmofur",
+      "dosage": 1.0,
+      "real_cells": 301
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Carmofur",
+      "dosage": 10.0,
+      "real_cells": 274
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Celecoxib",
+      "dosage": 0.1,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Celecoxib",
+      "dosage": 1.0,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Celecoxib",
+      "dosage": 10.0,
+      "real_cells": 260
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Cerdulatinib",
+      "dosage": 0.01,
+      "real_cells": 281
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Cimetidine",
+      "dosage": 0.1,
+      "real_cells": 248
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Cimetidine",
+      "dosage": 10.0,
+      "real_cells": 244
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Clevudine",
+      "dosage": 10.0,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Costunolide",
+      "dosage": 10.0,
+      "real_cells": 273
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Crizotinib",
+      "dosage": 10.0,
+      "real_cells": 114
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Curcumin",
+      "dosage": 1.0,
+      "real_cells": 268
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Curcumin",
+      "dosage": 10.0,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Cyclocytidine",
+      "dosage": 1.0,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Cyclocytidine",
+      "dosage": 10.0,
+      "real_cells": 245
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Danusertib",
+      "dosage": 0.01,
+      "real_cells": 192
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Danusertib",
+      "dosage": 1.0,
+      "real_cells": 152
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Danusertib",
+      "dosage": 10.0,
+      "real_cells": 149
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Dasatinib",
+      "dosage": 0.01,
+      "real_cells": 127
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Dasatinib",
+      "dosage": 1.0,
+      "real_cells": 115
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Dasatinib",
+      "dosage": 10.0,
+      "real_cells": 134
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Disulfiram",
+      "dosage": 1.0,
+      "real_cells": 279
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Divalproex",
+      "dosage": 1.0,
+      "real_cells": 289
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Divalproex",
+      "dosage": 10.0,
+      "real_cells": 241
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Droxinostat",
+      "dosage": 0.01,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Droxinostat",
+      "dosage": 0.1,
+      "real_cells": 236
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Droxinostat",
+      "dosage": 1.0,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "K562",
+      "drug": "EED226",
+      "dosage": 0.01,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "K562",
+      "drug": "ENMD-2076",
+      "dosage": 0.1,
+      "real_cells": 451
+    },
+    {
+      "cell_type": "K562",
+      "drug": "ENMD-2076",
+      "dosage": 1.0,
+      "real_cells": 364
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Ellagic",
+      "dosage": 0.01,
+      "real_cells": 208
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Entacapone",
+      "dosage": 0.1,
+      "real_cells": 230
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Entacapone",
+      "dosage": 1.0,
+      "real_cells": 235
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Entacapone",
+      "dosage": 10.0,
+      "real_cells": 248
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Enzastaurin",
+      "dosage": 10.0,
+      "real_cells": 183
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Epothilone",
+      "dosage": 0.01,
+      "real_cells": 123
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Epothilone",
+      "dosage": 10.0,
+      "real_cells": 91
+    },
+    {
+      "cell_type": "K562",
+      "drug": "FLLL32",
+      "dosage": 10.0,
+      "real_cells": 105
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Fasudil",
+      "dosage": 0.01,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Fasudil",
+      "dosage": 1.0,
+      "real_cells": 248
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Fedratinib",
+      "dosage": 0.1,
+      "real_cells": 191
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Filgotinib",
+      "dosage": 0.01,
+      "real_cells": 288
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Filgotinib",
+      "dosage": 10.0,
+      "real_cells": 246
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Fluorouracil",
+      "dosage": 0.01,
+      "real_cells": 284
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Fluorouracil",
+      "dosage": 0.1,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "K562",
+      "drug": "G007-LK",
+      "dosage": 0.01,
+      "real_cells": 237
+    },
+    {
+      "cell_type": "K562",
+      "drug": "G007-LK",
+      "dosage": 0.1,
+      "real_cells": 211
+    },
+    {
+      "cell_type": "K562",
+      "drug": "GSK",
+      "dosage": 0.1,
+      "real_cells": 244
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Glesatinib?(MGCD265)",
+      "dosage": 0.1,
+      "real_cells": 298
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Glesatinib?(MGCD265)",
+      "dosage": 10.0,
+      "real_cells": 134
+    },
+    {
+      "cell_type": "K562",
+      "drug": "INO-1001",
+      "dosage": 0.01,
+      "real_cells": 250
+    },
+    {
+      "cell_type": "K562",
+      "drug": "IOX2",
+      "dosage": 0.1,
+      "real_cells": 259
+    },
+    {
+      "cell_type": "K562",
+      "drug": "ITSA-1",
+      "dosage": 0.01,
+      "real_cells": 239
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Iniparib",
+      "dosage": 10.0,
+      "real_cells": 231
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Ivosidenib",
+      "dosage": 10.0,
+      "real_cells": 229
+    },
+    {
+      "cell_type": "K562",
+      "drug": "JNJ-26854165",
+      "dosage": 1.0,
+      "real_cells": 286
+    },
+    {
+      "cell_type": "K562",
+      "drug": "JNJ-26854165",
+      "dosage": 10.0,
+      "real_cells": 251
+    },
+    {
+      "cell_type": "K562",
+      "drug": "KW-2449",
+      "dosage": 1.0,
+      "real_cells": 229
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Linifanib",
+      "dosage": 10.0,
+      "real_cells": 269
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Luminespib",
+      "dosage": 1.0,
+      "real_cells": 87
+    },
+    {
+      "cell_type": "K562",
+      "drug": "M344",
+      "dosage": 0.1,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "K562",
+      "drug": "M344",
+      "dosage": 10.0,
+      "real_cells": 80
+    },
+    {
+      "cell_type": "K562",
+      "drug": "MC1568",
+      "dosage": 1.0,
+      "real_cells": 294
+    },
+    {
+      "cell_type": "K562",
+      "drug": "MK-0752",
+      "dosage": 0.01,
+      "real_cells": 252
+    },
+    {
+      "cell_type": "K562",
+      "drug": "MK-5108",
+      "dosage": 1.0,
+      "real_cells": 235
+    },
+    {
+      "cell_type": "K562",
+      "drug": "MLN8054",
+      "dosage": 0.1,
+      "real_cells": 117
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Mercaptopurine",
+      "dosage": 0.1,
+      "real_cells": 275
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Mesna",
+      "dosage": 0.01,
+      "real_cells": 248
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Momelotinib",
+      "dosage": 10.0,
+      "real_cells": 184
+    },
+    {
+      "cell_type": "K562",
+      "drug": "NVP-BSK805",
+      "dosage": 0.1,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Navitoclax",
+      "dosage": 0.1,
+      "real_cells": 257
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Nilotinib",
+      "dosage": 1.0,
+      "real_cells": 136
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Nintedanib",
+      "dosage": 0.1,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Nintedanib",
+      "dosage": 10.0,
+      "real_cells": 97
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Obatoclax",
+      "dosage": 1.0,
+      "real_cells": 262
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Ofloxacin",
+      "dosage": 10.0,
+      "real_cells": 267
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PCI-34051",
+      "dosage": 10.0,
+      "real_cells": 196
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PD173074",
+      "dosage": 0.01,
+      "real_cells": 267
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PD173074",
+      "dosage": 10.0,
+      "real_cells": 249
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PD98059",
+      "dosage": 10.0,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PF-3845",
+      "dosage": 0.01,
+      "real_cells": 234
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PF-573228",
+      "dosage": 0.01,
+      "real_cells": 191
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PF-573228",
+      "dosage": 0.1,
+      "real_cells": 223
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PHA-680632",
+      "dosage": 0.1,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "K562",
+      "drug": "PJ34",
+      "dosage": 0.01,
+      "real_cells": 276
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Panobinostat",
+      "dosage": 1.0,
+      "real_cells": 86
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Patupilone",
+      "dosage": 0.1,
+      "real_cells": 67
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Pelitinib",
+      "dosage": 0.1,
+      "real_cells": 252
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Pirarubicin",
+      "dosage": 0.01,
+      "real_cells": 212
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Pracinostat",
+      "dosage": 10.0,
+      "real_cells": 96
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Prednisone",
+      "dosage": 0.01,
+      "real_cells": 253
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Prednisone",
+      "dosage": 1.0,
+      "real_cells": 273
+    },
+    {
+      "cell_type": "K562",
+      "drug": "RG108",
+      "dosage": 0.01,
+      "real_cells": 258
+    },
+    {
+      "cell_type": "K562",
+      "drug": "RG108",
+      "dosage": 10.0,
+      "real_cells": 229
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Raltitrexed",
+      "dosage": 0.1,
+      "real_cells": 198
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Raltitrexed",
+      "dosage": 10.0,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Ramelteon",
+      "dosage": 0.01,
+      "real_cells": 254
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Resminostat",
+      "dosage": 0.1,
+      "real_cells": 226
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Resveratrol",
+      "dosage": 0.1,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Resveratrol",
+      "dosage": 10.0,
+      "real_cells": 266
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Rigosertib",
+      "dosage": 1.0,
+      "real_cells": 76
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Roscovitine",
+      "dosage": 0.01,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Roscovitine",
+      "dosage": 0.1,
+      "real_cells": 260
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Roscovitine",
+      "dosage": 10.0,
+      "real_cells": 298
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Roxadustat",
+      "dosage": 0.01,
+      "real_cells": 230
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Roxadustat",
+      "dosage": 10.0,
+      "real_cells": 274
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Rucaparib",
+      "dosage": 0.1,
+      "real_cells": 226
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Ruxolitinib",
+      "dosage": 0.01,
+      "real_cells": 233
+    },
+    {
+      "cell_type": "K562",
+      "drug": "S-Ruxolitinib",
+      "dosage": 0.01,
+      "real_cells": 249
+    },
+    {
+      "cell_type": "K562",
+      "drug": "S3I-201",
+      "dosage": 0.1,
+      "real_cells": 264
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SB431542",
+      "dosage": 0.01,
+      "real_cells": 263
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SGI-1776",
+      "dosage": 10.0,
+      "real_cells": 74
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SL-327",
+      "dosage": 0.01,
+      "real_cells": 227
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SNS-314",
+      "dosage": 1.0,
+      "real_cells": 215
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SNS-314",
+      "dosage": 10.0,
+      "real_cells": 176
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SRT1720",
+      "dosage": 0.01,
+      "real_cells": 253
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SRT1720",
+      "dosage": 0.1,
+      "real_cells": 259
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SRT2104",
+      "dosage": 0.01,
+      "real_cells": 276
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SRT2104",
+      "dosage": 0.1,
+      "real_cells": 293
+    },
+    {
+      "cell_type": "K562",
+      "drug": "SRT3025",
+      "dosage": 0.1,
+      "real_cells": 219
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Selisistat",
+      "dosage": 1.0,
+      "real_cells": 222
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Selisistat",
+      "dosage": 10.0,
+      "real_cells": 267
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Sirtinol",
+      "dosage": 0.01,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Sirtinol",
+      "dosage": 1.0,
+      "real_cells": 260
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Sodium",
+      "dosage": 1.0,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Sorafenib",
+      "dosage": 1.0,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Streptozotocin",
+      "dosage": 0.01,
+      "real_cells": 262
+    },
+    {
+      "cell_type": "K562",
+      "drug": "TG101209",
+      "dosage": 1.0,
+      "real_cells": 198
+    },
+    {
+      "cell_type": "K562",
+      "drug": "TG101209",
+      "dosage": 10.0,
+      "real_cells": 100
+    },
+    {
+      "cell_type": "K562",
+      "drug": "TGX-221",
+      "dosage": 0.01,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tacedinaline",
+      "dosage": 0.01,
+      "real_cells": 277
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tazemetostat",
+      "dosage": 1.0,
+      "real_cells": 264
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Temsirolimus",
+      "dosage": 10.0,
+      "real_cells": 158
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Thalidomide",
+      "dosage": 0.01,
+      "real_cells": 244
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Thiotepa",
+      "dosage": 1.0,
+      "real_cells": 278
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tofacitinib",
+      "dosage": 0.01,
+      "real_cells": 297
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tozasertib",
+      "dosage": 1.0,
+      "real_cells": 131
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tranylcypromine",
+      "dosage": 10.0,
+      "real_cells": 259
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Triamcinolone",
+      "dosage": 0.01,
+      "real_cells": 277
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Triamcinolone",
+      "dosage": 0.1,
+      "real_cells": 253
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Triamcinolone",
+      "dosage": 1.0,
+      "real_cells": 319
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tubastatin",
+      "dosage": 0.1,
+      "real_cells": 205
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tucidinostat",
+      "dosage": 0.01,
+      "real_cells": 243
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tucidinostat",
+      "dosage": 1.0,
+      "real_cells": 207
+    },
+    {
+      "cell_type": "K562",
+      "drug": "UNC0379",
+      "dosage": 0.01,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "K562",
+      "drug": "UNC0379",
+      "dosage": 1.0,
+      "real_cells": 251
+    },
+    {
+      "cell_type": "K562",
+      "drug": "UNC0631",
+      "dosage": 10.0,
+      "real_cells": 243
+    },
+    {
+      "cell_type": "K562",
+      "drug": "UNC1999",
+      "dosage": 0.01,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "K562",
+      "drug": "UNC1999",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "K562",
+      "drug": "UNC1999",
+      "dosage": 10.0,
+      "real_cells": 221
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Valproic",
+      "dosage": 0.01,
+      "real_cells": 251
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Vandetanib",
+      "dosage": 0.1,
+      "real_cells": 248
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Vandetanib",
+      "dosage": 1.0,
+      "real_cells": 239
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Veliparib",
+      "dosage": 0.01,
+      "real_cells": 281
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Veliparib",
+      "dosage": 0.1,
+      "real_cells": 257
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Veliparib",
+      "dosage": 1.0,
+      "real_cells": 253
+    },
+    {
+      "cell_type": "K562",
+      "drug": "WP1066",
+      "dosage": 10.0,
+      "real_cells": 235
+    },
+    {
+      "cell_type": "K562",
+      "drug": "XAV-939",
+      "dosage": 1.0,
+      "real_cells": 291
+    },
+    {
+      "cell_type": "K562",
+      "drug": "XAV-939",
+      "dosage": 10.0,
+      "real_cells": 222
+    },
+    {
+      "cell_type": "K562",
+      "drug": "YM155",
+      "dosage": 10.0,
+      "real_cells": 148
+    },
+    {
+      "cell_type": "K562",
+      "drug": "ZM",
+      "dosage": 1.0,
+      "real_cells": 221
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Zileuton",
+      "dosage": 10.0,
+      "real_cells": 285
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "A-366",
+      "dosage": 0.01,
+      "real_cells": 527
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AG-14361",
+      "dosage": 10.0,
+      "real_cells": 493
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AG-490",
+      "dosage": 1.0,
+      "real_cells": 433
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AICAR",
+      "dosage": 1.0,
+      "real_cells": 405
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AICAR",
+      "dosage": 10.0,
+      "real_cells": 414
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AMG-900",
+      "dosage": 1.0,
+      "real_cells": 358
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AT9283",
+      "dosage": 0.01,
+      "real_cells": 404
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AT9283",
+      "dosage": 1.0,
+      "real_cells": 311
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AZ",
+      "dosage": 0.01,
+      "real_cells": 641
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AZ",
+      "dosage": 1.0,
+      "real_cells": 401
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "AZD1480",
+      "dosage": 0.01,
+      "real_cells": 529
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Abexinostat",
+      "dosage": 0.1,
+      "real_cells": 456
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Abexinostat",
+      "dosage": 10.0,
+      "real_cells": 536
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Alendronate",
+      "dosage": 0.1,
+      "real_cells": 297
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Alendronate",
+      "dosage": 1.0,
+      "real_cells": 213
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Alisertib",
+      "dosage": 0.1,
+      "real_cells": 309
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Altretamine",
+      "dosage": 0.01,
+      "real_cells": 470
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Aminoglutethimide",
+      "dosage": 0.01,
+      "real_cells": 487
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Aminoglutethimide",
+      "dosage": 1.0,
+      "real_cells": 304
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Amisulpride",
+      "dosage": 0.1,
+      "real_cells": 352
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Amisulpride",
+      "dosage": 1.0,
+      "real_cells": 317
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Anacardic",
+      "dosage": 0.1,
+      "real_cells": 493
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Aurora",
+      "dosage": 0.01,
+      "real_cells": 495
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Avagacestat",
+      "dosage": 0.1,
+      "real_cells": 430
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Avagacestat",
+      "dosage": 10.0,
+      "real_cells": 537
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "BMS-265246",
+      "dosage": 0.1,
+      "real_cells": 591
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "BMS-265246",
+      "dosage": 10.0,
+      "real_cells": 349
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "BMS-536924",
+      "dosage": 10.0,
+      "real_cells": 359
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "BMS-754807",
+      "dosage": 10.0,
+      "real_cells": 159
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "BRD4770",
+      "dosage": 10.0,
+      "real_cells": 502
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Barasertib",
+      "dosage": 0.1,
+      "real_cells": 363
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Baricitinib",
+      "dosage": 0.01,
+      "real_cells": 584
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Bisindolylmaleimide",
+      "dosage": 0.01,
+      "real_cells": 506
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Bosutinib",
+      "dosage": 1.0,
+      "real_cells": 313
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Bosutinib",
+      "dosage": 10.0,
+      "real_cells": 217
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Busulfan",
+      "dosage": 10.0,
+      "real_cells": 493
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "CEP-33779",
+      "dosage": 0.01,
+      "real_cells": 555
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "CUDC-101",
+      "dosage": 0.01,
+      "real_cells": 579
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "CUDC-101",
+      "dosage": 10.0,
+      "real_cells": 428
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "CUDC-907",
+      "dosage": 1.0,
+      "real_cells": 408
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Carmofur",
+      "dosage": 0.1,
+      "real_cells": 351
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Cediranib",
+      "dosage": 0.01,
+      "real_cells": 464
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Cediranib",
+      "dosage": 1.0,
+      "real_cells": 353
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Celecoxib",
+      "dosage": 10.0,
+      "real_cells": 481
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Cerdulatinib",
+      "dosage": 0.1,
+      "real_cells": 560
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Cerdulatinib",
+      "dosage": 10.0,
+      "real_cells": 427
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Cimetidine",
+      "dosage": 0.01,
+      "real_cells": 486
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Crizotinib",
+      "dosage": 0.1,
+      "real_cells": 451
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Crizotinib",
+      "dosage": 10.0,
+      "real_cells": 310
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Curcumin",
+      "dosage": 0.01,
+      "real_cells": 582
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Curcumin",
+      "dosage": 10.0,
+      "real_cells": 512
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Cyclocytidine",
+      "dosage": 0.01,
+      "real_cells": 536
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Daphnetin",
+      "dosage": 0.01,
+      "real_cells": 571
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Daphnetin",
+      "dosage": 0.1,
+      "real_cells": 559
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Daphnetin",
+      "dosage": 10.0,
+      "real_cells": 505
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Decitabine",
+      "dosage": 0.01,
+      "real_cells": 439
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Decitabine",
+      "dosage": 1.0,
+      "real_cells": 358
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Disulfiram",
+      "dosage": 0.1,
+      "real_cells": 293
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Disulfiram",
+      "dosage": 1.0,
+      "real_cells": 324
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Divalproex",
+      "dosage": 0.1,
+      "real_cells": 500
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Divalproex",
+      "dosage": 1.0,
+      "real_cells": 641
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Droxinostat",
+      "dosage": 1.0,
+      "real_cells": 477
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "EED226",
+      "dosage": 0.01,
+      "real_cells": 514
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "ENMD-2076",
+      "dosage": 0.1,
+      "real_cells": 1080
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "ENMD-2076",
+      "dosage": 1.0,
+      "real_cells": 842
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ellagic",
+      "dosage": 0.01,
+      "real_cells": 517
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ellagic",
+      "dosage": 10.0,
+      "real_cells": 559
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Entinostat",
+      "dosage": 1.0,
+      "real_cells": 447
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Entinostat",
+      "dosage": 10.0,
+      "real_cells": 445
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Enzastaurin",
+      "dosage": 0.1,
+      "real_cells": 508
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Enzastaurin",
+      "dosage": 10.0,
+      "real_cells": 516
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Epothilone",
+      "dosage": 0.01,
+      "real_cells": 202
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Epothilone",
+      "dosage": 0.1,
+      "real_cells": 160
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Fasudil",
+      "dosage": 0.1,
+      "real_cells": 465
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Fasudil",
+      "dosage": 1.0,
+      "real_cells": 568
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Fedratinib",
+      "dosage": 0.1,
+      "real_cells": 566
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Filgotinib",
+      "dosage": 10.0,
+      "real_cells": 435
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Fluorouracil",
+      "dosage": 1.0,
+      "real_cells": 425
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "G007-LK",
+      "dosage": 10.0,
+      "real_cells": 516
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "GSK",
+      "dosage": 0.1,
+      "real_cells": 553
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "GSK",
+      "dosage": 10.0,
+      "real_cells": 510
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "GSK-LSD1",
+      "dosage": 1.0,
+      "real_cells": 568
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "GSK1070916",
+      "dosage": 0.01,
+      "real_cells": 491
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "GSK1070916",
+      "dosage": 1.0,
+      "real_cells": 411
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "GSK1070916",
+      "dosage": 10.0,
+      "real_cells": 307
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Gandotinib",
+      "dosage": 0.01,
+      "real_cells": 619
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Gandotinib",
+      "dosage": 0.1,
+      "real_cells": 553
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Gandotinib",
+      "dosage": 1.0,
+      "real_cells": 448
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Glesatinib?(MGCD265)",
+      "dosage": 0.01,
+      "real_cells": 498
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "INO-1001",
+      "dosage": 1.0,
+      "real_cells": 424
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "INO-1001",
+      "dosage": 10.0,
+      "real_cells": 493
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "IOX2",
+      "dosage": 1.0,
+      "real_cells": 522
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "IOX2",
+      "dosage": 10.0,
+      "real_cells": 522
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "ITSA-1",
+      "dosage": 0.01,
+      "real_cells": 401
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "ITSA-1",
+      "dosage": 1.0,
+      "real_cells": 622
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ivosidenib",
+      "dosage": 1.0,
+      "real_cells": 464
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ivosidenib",
+      "dosage": 10.0,
+      "real_cells": 356
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "JNJ-26854165",
+      "dosage": 0.01,
+      "real_cells": 610
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "JNJ-7706621",
+      "dosage": 0.01,
+      "real_cells": 492
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "JNJ-7706621",
+      "dosage": 0.1,
+      "real_cells": 448
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "JQ1",
+      "dosage": 0.01,
+      "real_cells": 508
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "JQ1",
+      "dosage": 1.0,
+      "real_cells": 585
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "KW-2449",
+      "dosage": 0.1,
+      "real_cells": 538
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ki16425",
+      "dosage": 0.01,
+      "real_cells": 420
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ki16425",
+      "dosage": 10.0,
+      "real_cells": 515
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ki8751",
+      "dosage": 1.0,
+      "real_cells": 448
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ki8751",
+      "dosage": 10.0,
+      "real_cells": 346
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Lapatinib",
+      "dosage": 1.0,
+      "real_cells": 362
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Lenalidomide",
+      "dosage": 0.1,
+      "real_cells": 319
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Linifanib",
+      "dosage": 0.01,
+      "real_cells": 401
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Linifanib",
+      "dosage": 0.1,
+      "real_cells": 403
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Linifanib",
+      "dosage": 1.0,
+      "real_cells": 413
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Lomustine",
+      "dosage": 10.0,
+      "real_cells": 452
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Luminespib",
+      "dosage": 0.01,
+      "real_cells": 440
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Luminespib",
+      "dosage": 10.0,
+      "real_cells": 170
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "M344",
+      "dosage": 0.1,
+      "real_cells": 563
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "MC1568",
+      "dosage": 0.1,
+      "real_cells": 466
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "MC1568",
+      "dosage": 1.0,
+      "real_cells": 571
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "MK-0752",
+      "dosage": 1.0,
+      "real_cells": 480
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "MLN8054",
+      "dosage": 0.01,
+      "real_cells": 419
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Maraviroc",
+      "dosage": 0.01,
+      "real_cells": 494
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Maraviroc",
+      "dosage": 0.1,
+      "real_cells": 510
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Meprednisone",
+      "dosage": 10.0,
+      "real_cells": 509
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Mercaptopurine",
+      "dosage": 0.01,
+      "real_cells": 387
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Mercaptopurine",
+      "dosage": 10.0,
+      "real_cells": 181
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Mesna",
+      "dosage": 10.0,
+      "real_cells": 425
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Mocetinostat",
+      "dosage": 1.0,
+      "real_cells": 451
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Mocetinostat",
+      "dosage": 10.0,
+      "real_cells": 272
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Momelotinib",
+      "dosage": 0.1,
+      "real_cells": 579
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Motesanib",
+      "dosage": 0.1,
+      "real_cells": 405
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Motesanib",
+      "dosage": 1.0,
+      "real_cells": 436
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Navitoclax",
+      "dosage": 10.0,
+      "real_cells": 248
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Nilotinib",
+      "dosage": 0.1,
+      "real_cells": 452
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Nintedanib",
+      "dosage": 0.1,
+      "real_cells": 390
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Obatoclax",
+      "dosage": 10.0,
+      "real_cells": 201
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ofloxacin",
+      "dosage": 1.0,
+      "real_cells": 530
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PCI-34051",
+      "dosage": 0.1,
+      "real_cells": 460
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PD173074",
+      "dosage": 0.1,
+      "real_cells": 446
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PD98059",
+      "dosage": 0.01,
+      "real_cells": 553
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PF-3845",
+      "dosage": 0.1,
+      "real_cells": 508
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PF-573228",
+      "dosage": 0.01,
+      "real_cells": 401
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PF-573228",
+      "dosage": 1.0,
+      "real_cells": 445
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PFI-1",
+      "dosage": 0.01,
+      "real_cells": 501
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PFI-1",
+      "dosage": 10.0,
+      "real_cells": 524
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PHA-680632",
+      "dosage": 1.0,
+      "real_cells": 405
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PJ34",
+      "dosage": 0.01,
+      "real_cells": 612
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "PJ34",
+      "dosage": 0.1,
+      "real_cells": 546
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Panobinostat",
+      "dosage": 0.1,
+      "real_cells": 414
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Patupilone",
+      "dosage": 0.01,
+      "real_cells": 226
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Patupilone",
+      "dosage": 0.1,
+      "real_cells": 239
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Patupilone",
+      "dosage": 10.0,
+      "real_cells": 214
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Pelitinib",
+      "dosage": 0.01,
+      "real_cells": 423
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Pirarubicin",
+      "dosage": 0.01,
+      "real_cells": 484
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Pracinostat",
+      "dosage": 1.0,
+      "real_cells": 478
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Quercetin",
+      "dosage": 0.01,
+      "real_cells": 503
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Quercetin",
+      "dosage": 10.0,
+      "real_cells": 464
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "RG108",
+      "dosage": 1.0,
+      "real_cells": 503
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Raltitrexed",
+      "dosage": 10.0,
+      "real_cells": 367
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ramelteon",
+      "dosage": 0.01,
+      "real_cells": 397
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ramelteon",
+      "dosage": 0.1,
+      "real_cells": 480
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Regorafenib",
+      "dosage": 0.1,
+      "real_cells": 545
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Regorafenib",
+      "dosage": 1.0,
+      "real_cells": 431
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Resminostat",
+      "dosage": 0.01,
+      "real_cells": 619
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Resminostat",
+      "dosage": 0.1,
+      "real_cells": 542
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Resminostat",
+      "dosage": 10.0,
+      "real_cells": 450
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Rigosertib",
+      "dosage": 0.01,
+      "real_cells": 469
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Rigosertib",
+      "dosage": 0.1,
+      "real_cells": 391
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Roxadustat",
+      "dosage": 1.0,
+      "real_cells": 563
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Rucaparib",
+      "dosage": 0.01,
+      "real_cells": 480
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Ruxolitinib",
+      "dosage": 1.0,
+      "real_cells": 473
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "S-Ruxolitinib",
+      "dosage": 0.1,
+      "real_cells": 560
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "S3I-201",
+      "dosage": 10.0,
+      "real_cells": 479
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SB431542",
+      "dosage": 0.01,
+      "real_cells": 442
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SB431542",
+      "dosage": 1.0,
+      "real_cells": 439
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SGI-1776",
+      "dosage": 0.1,
+      "real_cells": 530
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SL-327",
+      "dosage": 0.1,
+      "real_cells": 515
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SNS-314",
+      "dosage": 10.0,
+      "real_cells": 266
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SRT1720",
+      "dosage": 0.1,
+      "real_cells": 399
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SRT2104",
+      "dosage": 1.0,
+      "real_cells": 632
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SRT3025",
+      "dosage": 1.0,
+      "real_cells": 544
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "SRT3025",
+      "dosage": 10.0,
+      "real_cells": 540
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Selisistat",
+      "dosage": 1.0,
+      "real_cells": 515
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Selisistat",
+      "dosage": 10.0,
+      "real_cells": 551
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Sirtinol",
+      "dosage": 10.0,
+      "real_cells": 482
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Sodium",
+      "dosage": 10.0,
+      "real_cells": 496
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Sorafenib",
+      "dosage": 0.01,
+      "real_cells": 524
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Sorafenib",
+      "dosage": 10.0,
+      "real_cells": 265
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Streptozotocin",
+      "dosage": 0.1,
+      "real_cells": 460
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TG101209",
+      "dosage": 0.01,
+      "real_cells": 567
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TGX-221",
+      "dosage": 1.0,
+      "real_cells": 456
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TGX-221",
+      "dosage": 10.0,
+      "real_cells": 444
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TMP195",
+      "dosage": 0.01,
+      "real_cells": 490
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TMP195",
+      "dosage": 1.0,
+      "real_cells": 421
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tacedinaline",
+      "dosage": 1.0,
+      "real_cells": 543
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tazemetostat",
+      "dosage": 0.1,
+      "real_cells": 473
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Temsirolimus",
+      "dosage": 0.1,
+      "real_cells": 452
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Thalidomide",
+      "dosage": 0.1,
+      "real_cells": 520
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Thalidomide",
+      "dosage": 1.0,
+      "real_cells": 509
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Thiotepa",
+      "dosage": 0.01,
+      "real_cells": 448
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Thiotepa",
+      "dosage": 10.0,
+      "real_cells": 430
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tie2",
+      "dosage": 0.1,
+      "real_cells": 401
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tofacitinib",
+      "dosage": 0.1,
+      "real_cells": 464
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Toremifene",
+      "dosage": 1.0,
+      "real_cells": 414
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Toremifene",
+      "dosage": 10.0,
+      "real_cells": 274
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tozasertib",
+      "dosage": 0.01,
+      "real_cells": 480
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tozasertib",
+      "dosage": 10.0,
+      "real_cells": 420
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Trametinib",
+      "dosage": 0.01,
+      "real_cells": 449
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Trametinib",
+      "dosage": 0.1,
+      "real_cells": 487
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tranylcypromine",
+      "dosage": 0.01,
+      "real_cells": 614
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tranylcypromine",
+      "dosage": 10.0,
+      "real_cells": 560
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Trichostatin",
+      "dosage": 0.1,
+      "real_cells": 555
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Trichostatin",
+      "dosage": 1.0,
+      "real_cells": 408
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tubastatin",
+      "dosage": 10.0,
+      "real_cells": 541
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tucidinostat",
+      "dosage": 1.0,
+      "real_cells": 353
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "UNC0379",
+      "dosage": 0.1,
+      "real_cells": 493
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "UNC0631",
+      "dosage": 0.1,
+      "real_cells": 457
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "UNC0631",
+      "dosage": 1.0,
+      "real_cells": 501
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "UNC0631",
+      "dosage": 10.0,
+      "real_cells": 541
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Valproic",
+      "dosage": 10.0,
+      "real_cells": 435
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Vandetanib",
+      "dosage": 0.1,
+      "real_cells": 533
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Veliparib",
+      "dosage": 10.0,
+      "real_cells": 324
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "WHI-P154",
+      "dosage": 0.01,
+      "real_cells": 561
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "WHI-P154",
+      "dosage": 10.0,
+      "real_cells": 500
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "WP1066",
+      "dosage": 0.1,
+      "real_cells": 548
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "WP1066",
+      "dosage": 1.0,
+      "real_cells": 515
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "YM155",
+      "dosage": 0.01,
+      "real_cells": 24
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "ZM",
+      "dosage": 1.0,
+      "real_cells": 339
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Zileuton",
+      "dosage": 10.0,
+      "real_cells": 480
+    }
+  ],
+  "ood": [
+    {
+      "cell_type": "A549",
+      "drug": "Alvespimycin",
+      "dosage": 0.01,
+      "real_cells": 230
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Alvespimycin",
+      "dosage": 0.1,
+      "real_cells": 128
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Alvespimycin",
+      "dosage": 1.0,
+      "real_cells": 88
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Alvespimycin",
+      "dosage": 10.0,
+      "real_cells": 95
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Belinostat",
+      "dosage": 0.01,
+      "real_cells": 190
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Belinostat",
+      "dosage": 0.1,
+      "real_cells": 239
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Belinostat",
+      "dosage": 1.0,
+      "real_cells": 209
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Belinostat",
+      "dosage": 10.0,
+      "real_cells": 106
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Dacinostat",
+      "dosage": 0.01,
+      "real_cells": 231
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Dacinostat",
+      "dosage": 0.1,
+      "real_cells": 175
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Dacinostat",
+      "dosage": 1.0,
+      "real_cells": 115
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Dacinostat",
+      "dosage": 10.0,
+      "real_cells": 108
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Flavopiridol",
+      "dosage": 0.01,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Flavopiridol",
+      "dosage": 0.1,
+      "real_cells": 139
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Flavopiridol",
+      "dosage": 1.0,
+      "real_cells": 128
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Flavopiridol",
+      "dosage": 10.0,
+      "real_cells": 136
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Givinostat",
+      "dosage": 0.01,
+      "real_cells": 205
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Givinostat",
+      "dosage": 0.1,
+      "real_cells": 213
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Givinostat",
+      "dosage": 1.0,
+      "real_cells": 219
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Givinostat",
+      "dosage": 10.0,
+      "real_cells": 148
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Hesperadin",
+      "dosage": 0.01,
+      "real_cells": 129
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Hesperadin",
+      "dosage": 0.1,
+      "real_cells": 118
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Hesperadin",
+      "dosage": 1.0,
+      "real_cells": 141
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Hesperadin",
+      "dosage": 10.0,
+      "real_cells": 118
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Quisinostat",
+      "dosage": 0.01,
+      "real_cells": 185
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Quisinostat",
+      "dosage": 0.1,
+      "real_cells": 144
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Quisinostat",
+      "dosage": 1.0,
+      "real_cells": 104
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Quisinostat",
+      "dosage": 10.0,
+      "real_cells": 113
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TAK-901",
+      "dosage": 0.01,
+      "real_cells": 218
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TAK-901",
+      "dosage": 0.1,
+      "real_cells": 165
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TAK-901",
+      "dosage": 1.0,
+      "real_cells": 147
+    },
+    {
+      "cell_type": "A549",
+      "drug": "TAK-901",
+      "dosage": 10.0,
+      "real_cells": 123
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tanespimycin",
+      "dosage": 0.01,
+      "real_cells": 223
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tanespimycin",
+      "dosage": 0.1,
+      "real_cells": 193
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tanespimycin",
+      "dosage": 1.0,
+      "real_cells": 138
+    },
+    {
+      "cell_type": "A549",
+      "drug": "Tanespimycin",
+      "dosage": 10.0,
+      "real_cells": 103
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Alvespimycin",
+      "dosage": 0.01,
+      "real_cells": 249
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Alvespimycin",
+      "dosage": 0.1,
+      "real_cells": 149
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Alvespimycin",
+      "dosage": 1.0,
+      "real_cells": 137
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Alvespimycin",
+      "dosage": 10.0,
+      "real_cells": 122
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Belinostat",
+      "dosage": 0.01,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Belinostat",
+      "dosage": 0.1,
+      "real_cells": 241
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Belinostat",
+      "dosage": 1.0,
+      "real_cells": 222
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Belinostat",
+      "dosage": 10.0,
+      "real_cells": 89
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Dacinostat",
+      "dosage": 0.01,
+      "real_cells": 158
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Dacinostat",
+      "dosage": 0.1,
+      "real_cells": 127
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Dacinostat",
+      "dosage": 1.0,
+      "real_cells": 116
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Dacinostat",
+      "dosage": 10.0,
+      "real_cells": 94
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Flavopiridol",
+      "dosage": 0.01,
+      "real_cells": 219
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Flavopiridol",
+      "dosage": 0.1,
+      "real_cells": 167
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Flavopiridol",
+      "dosage": 1.0,
+      "real_cells": 35
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Flavopiridol",
+      "dosage": 10.0,
+      "real_cells": 29
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Givinostat",
+      "dosage": 0.01,
+      "real_cells": 256
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Givinostat",
+      "dosage": 0.1,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Givinostat",
+      "dosage": 1.0,
+      "real_cells": 153
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Givinostat",
+      "dosage": 10.0,
+      "real_cells": 103
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Hesperadin",
+      "dosage": 0.01,
+      "real_cells": 204
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Hesperadin",
+      "dosage": 0.1,
+      "real_cells": 180
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Hesperadin",
+      "dosage": 1.0,
+      "real_cells": 216
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Hesperadin",
+      "dosage": 10.0,
+      "real_cells": 140
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Quisinostat",
+      "dosage": 0.01,
+      "real_cells": 131
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Quisinostat",
+      "dosage": 0.1,
+      "real_cells": 129
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Quisinostat",
+      "dosage": 1.0,
+      "real_cells": 102
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Quisinostat",
+      "dosage": 10.0,
+      "real_cells": 94
+    },
+    {
+      "cell_type": "K562",
+      "drug": "TAK-901",
+      "dosage": 0.01,
+      "real_cells": 233
+    },
+    {
+      "cell_type": "K562",
+      "drug": "TAK-901",
+      "dosage": 0.1,
+      "real_cells": 203
+    },
+    {
+      "cell_type": "K562",
+      "drug": "TAK-901",
+      "dosage": 1.0,
+      "real_cells": 132
+    },
+    {
+      "cell_type": "K562",
+      "drug": "TAK-901",
+      "dosage": 10.0,
+      "real_cells": 102
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tanespimycin",
+      "dosage": 0.01,
+      "real_cells": 249
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tanespimycin",
+      "dosage": 0.1,
+      "real_cells": 197
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tanespimycin",
+      "dosage": 1.0,
+      "real_cells": 153
+    },
+    {
+      "cell_type": "K562",
+      "drug": "Tanespimycin",
+      "dosage": 10.0,
+      "real_cells": 101
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Alvespimycin",
+      "dosage": 0.01,
+      "real_cells": 388
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Alvespimycin",
+      "dosage": 0.1,
+      "real_cells": 253
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Alvespimycin",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Alvespimycin",
+      "dosage": 10.0,
+      "real_cells": 26
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Belinostat",
+      "dosage": 0.01,
+      "real_cells": 486
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Belinostat",
+      "dosage": 0.1,
+      "real_cells": 451
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Belinostat",
+      "dosage": 1.0,
+      "real_cells": 443
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Belinostat",
+      "dosage": 10.0,
+      "real_cells": 510
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Dacinostat",
+      "dosage": 0.01,
+      "real_cells": 490
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Dacinostat",
+      "dosage": 0.1,
+      "real_cells": 355
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Dacinostat",
+      "dosage": 1.0,
+      "real_cells": 397
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Dacinostat",
+      "dosage": 10.0,
+      "real_cells": 473
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Flavopiridol",
+      "dosage": 0.01,
+      "real_cells": 375
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Flavopiridol",
+      "dosage": 0.1,
+      "real_cells": 207
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Flavopiridol",
+      "dosage": 1.0,
+      "real_cells": 43
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Flavopiridol",
+      "dosage": 10.0,
+      "real_cells": 27
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Givinostat",
+      "dosage": 0.01,
+      "real_cells": 556
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Givinostat",
+      "dosage": 0.1,
+      "real_cells": 548
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Givinostat",
+      "dosage": 1.0,
+      "real_cells": 446
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Givinostat",
+      "dosage": 10.0,
+      "real_cells": 470
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Hesperadin",
+      "dosage": 0.01,
+      "real_cells": 333
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Hesperadin",
+      "dosage": 0.1,
+      "real_cells": 204
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Hesperadin",
+      "dosage": 1.0,
+      "real_cells": 271
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Hesperadin",
+      "dosage": 10.0,
+      "real_cells": 269
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Quisinostat",
+      "dosage": 0.01,
+      "real_cells": 372
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Quisinostat",
+      "dosage": 0.1,
+      "real_cells": 371
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Quisinostat",
+      "dosage": 1.0,
+      "real_cells": 453
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Quisinostat",
+      "dosage": 10.0,
+      "real_cells": 492
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TAK-901",
+      "dosage": 0.01,
+      "real_cells": 421
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TAK-901",
+      "dosage": 0.1,
+      "real_cells": 409
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TAK-901",
+      "dosage": 1.0,
+      "real_cells": 281
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "TAK-901",
+      "dosage": 10.0,
+      "real_cells": 125
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tanespimycin",
+      "dosage": 0.01,
+      "real_cells": 429
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tanespimycin",
+      "dosage": 0.1,
+      "real_cells": 288
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tanespimycin",
+      "dosage": 1.0,
+      "real_cells": 182
+    },
+    {
+      "cell_type": "MCF7",
+      "drug": "Tanespimycin",
+      "dosage": 10.0,
+      "real_cells": 232
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+batch_key: batch
+cell_type_key: cell_type
+control_key: control
+dose_divisor: 1000.0
+dose_key: dose
+drug_key: condition
+normalization_scale: train_max
+path: ${paths.data_root}/${dataset_name}/r${repeat}/s${split}/data.h5ad
+pert_idx_key: xpert_pert_idx
+pert_mapping_drug_column: drug_name
+pert_mapping_index_column: drug_idx
+pert_mapping_path: ${paths.data_root}/${dataset_name}/features/drug_lookup.csv
+split_key: unlasting_split
+stats_chunk_size: 512
+time_key: xpert_time
+train_split: train

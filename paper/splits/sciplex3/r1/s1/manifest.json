@@ -1,0 +1,31 @@
+{
+  "dataset_id": "sciplex3_r1_s1",
+  "dataset": "sciplex3",
+  "repeat": 1,
+  "split_index": 1,
+  "repeat_seed": 759689268,
+  "split_seed": 585071049,
+  "ood_drugs": [
+    "Alvespimycin",
+    "Belinostat",
+    "Dacinostat",
+    "Flavopiridol",
+    "Givinostat",
+    "Hesperadin",
+    "Quisinostat",
+    "TAK-901",
+    "Tanespimycin"
+  ],
+  "ood_count": 9,
+  "split_sha256": "d547de5b9ae115c0e172815d571918c68f118144d3d60869846b2881cc4a86dd",
+  "train_conditions": 1495,
+  "test_conditions": 641,
+  "actual_test_fraction": 0.3000936329588015,
+  "controls_all_train": true,
+  "cell_counts": {
+    "train": 460715,
+    "test": 196266,
+    "ood": 23704
+  },
+  "h5ad": "data/sciplex3/r1/s1/data.h5ad"
+}

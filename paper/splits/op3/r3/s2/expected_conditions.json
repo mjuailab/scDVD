@@ -1,0 +1,1674 @@
+{
+  "test": [
+    {
+      "cell_type": "B cells",
+      "drug": "5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine",
+      "dosage": 1.0,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "AZD3514",
+      "dosage": 1.0,
+      "real_cells": 244
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Azacitidine",
+      "dosage": 1.0,
+      "real_cells": 269
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "BI-D1870",
+      "dosage": 1.0,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "BMS-536924",
+      "dosage": 1.0,
+      "real_cells": 201
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "BX 912",
+      "dosage": 1.0,
+      "real_cells": 218
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Bosutinib",
+      "dosage": 1.0,
+      "real_cells": 224
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "CEP-37440",
+      "dosage": 1.0,
+      "real_cells": 338
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Canertinib",
+      "dosage": 1.0,
+      "real_cells": 306
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Chlorpheniramine",
+      "dosage": 1.0,
+      "real_cells": 294
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Clotrimazole",
+      "dosage": 1.0,
+      "real_cells": 259
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Dabrafenib",
+      "dosage": 1.0,
+      "real_cells": 3941
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Dasatinib",
+      "dosage": 1.0,
+      "real_cells": 174
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Decitabine",
+      "dosage": 1.0,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Dovitinib",
+      "dosage": 1.0,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Doxorubicin",
+      "dosage": 1.0,
+      "real_cells": 185
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "GO-6976",
+      "dosage": 1.0,
+      "real_cells": 232
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Isoniazid",
+      "dosage": 1.0,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Methotrexate",
+      "dosage": 1.0,
+      "real_cells": 367
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "PD-0325901",
+      "dosage": 1.0,
+      "real_cells": 262
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "PRT-062607",
+      "dosage": 1.0,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Phenylbutazone",
+      "dosage": 1.0,
+      "real_cells": 313
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Prednisolone",
+      "dosage": 1.0,
+      "real_cells": 227
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Protriptyline",
+      "dosage": 1.0,
+      "real_cells": 220
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "R428",
+      "dosage": 1.0,
+      "real_cells": 220
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "RN-486",
+      "dosage": 1.0,
+      "real_cells": 226
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "RVX-208",
+      "dosage": 1.0,
+      "real_cells": 242
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Riociguat",
+      "dosage": 1.0,
+      "real_cells": 257
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "SB525334",
+      "dosage": 1.0,
+      "real_cells": 257
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "TR-14035",
+      "dosage": 1.0,
+      "real_cells": 254
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Tivantinib",
+      "dosage": 1.0,
+      "real_cells": 217
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "ABT-199 (GDC-0199)",
+      "dosage": 1.0,
+      "real_cells": 407
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "AT13387",
+      "dosage": 1.0,
+      "real_cells": 12
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "AVL-292",
+      "dosage": 1.0,
+      "real_cells": 141
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "AZ628",
+      "dosage": 1.0,
+      "real_cells": 86
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "AZD3514",
+      "dosage": 1.0,
+      "real_cells": 229
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "BMS-265246",
+      "dosage": 1.0,
+      "real_cells": 444
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "BMS-777607",
+      "dosage": 1.0,
+      "real_cells": 205
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Buspirone",
+      "dosage": 1.0,
+      "real_cells": 482
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "CGM-097",
+      "dosage": 1.0,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Ceritinib",
+      "dosage": 1.0,
+      "real_cells": 262
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Disulfiram",
+      "dosage": 1.0,
+      "real_cells": 178
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Dovitinib",
+      "dosage": 1.0,
+      "real_cells": 174
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Foretinib",
+      "dosage": 1.0,
+      "real_cells": 89
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "GSK-1070916",
+      "dosage": 1.0,
+      "real_cells": 325
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "GSK256066",
+      "dosage": 1.0,
+      "real_cells": 526
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "HYDROXYUREA",
+      "dosage": 1.0,
+      "real_cells": 226
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "I-BET151",
+      "dosage": 1.0,
+      "real_cells": 126
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "IKK Inhibitor VII",
+      "dosage": 1.0,
+      "real_cells": 68
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "IN1451",
+      "dosage": 1.0,
+      "real_cells": 156
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Ixabepilone",
+      "dosage": 1.0,
+      "real_cells": 265
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "K-02288",
+      "dosage": 1.0,
+      "real_cells": 336
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "LDN 193189",
+      "dosage": 1.0,
+      "real_cells": 320
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Mometasone Furoate",
+      "dosage": 1.0,
+      "real_cells": 179
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Nefazodone",
+      "dosage": 1.0,
+      "real_cells": 278
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Oxybenzone",
+      "dosage": 1.0,
+      "real_cells": 295
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "PF-03814735",
+      "dosage": 1.0,
+      "real_cells": 103
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "PRT-062607",
+      "dosage": 1.0,
+      "real_cells": 77
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Perhexiline",
+      "dosage": 1.0,
+      "real_cells": 62
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Pomalidomide",
+      "dosage": 1.0,
+      "real_cells": 356
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "RG7112",
+      "dosage": 1.0,
+      "real_cells": 471
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Raloxifene",
+      "dosage": 1.0,
+      "real_cells": 228
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Riociguat",
+      "dosage": 1.0,
+      "real_cells": 283
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Ruxolitinib",
+      "dosage": 1.0,
+      "real_cells": 94
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "SLx-2119",
+      "dosage": 1.0,
+      "real_cells": 432
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Saracatinib",
+      "dosage": 1.0,
+      "real_cells": 218
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Sgc-cbp30",
+      "dosage": 1.0,
+      "real_cells": 318
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "TGX 221",
+      "dosage": 1.0,
+      "real_cells": 213
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "TL_HRAS26",
+      "dosage": 1.0,
+      "real_cells": 215
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Tacalcitol",
+      "dosage": 1.0,
+      "real_cells": 407
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Tivantinib",
+      "dosage": 1.0,
+      "real_cells": 212
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Tivozanib",
+      "dosage": 1.0,
+      "real_cells": 295
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "UNII-BXU45ZH6LI",
+      "dosage": 1.0,
+      "real_cells": 28
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "YK 4-279",
+      "dosage": 1.0,
+      "real_cells": 332
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine",
+      "dosage": 1.0,
+      "real_cells": 363
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "AMD-070 (hydrochloride)",
+      "dosage": 1.0,
+      "real_cells": 351
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "AZ628",
+      "dosage": 1.0,
+      "real_cells": 310
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "AZD-8330",
+      "dosage": 1.0,
+      "real_cells": 335
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "AZD4547",
+      "dosage": 1.0,
+      "real_cells": 278
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "BAY 87-2243",
+      "dosage": 1.0,
+      "real_cells": 367
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "BI-D1870",
+      "dosage": 1.0,
+      "real_cells": 279
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "BMS-777607",
+      "dosage": 1.0,
+      "real_cells": 343
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Belinostat",
+      "dosage": 0.1,
+      "real_cells": 3767
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Ceritinib",
+      "dosage": 1.0,
+      "real_cells": 327
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Clotrimazole",
+      "dosage": 1.0,
+      "real_cells": 327
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Dactolisib",
+      "dosage": 1.0,
+      "real_cells": 299
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Decitabine",
+      "dosage": 1.0,
+      "real_cells": 285
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Defactinib",
+      "dosage": 1.0,
+      "real_cells": 320
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Flutamide",
+      "dosage": 1.0,
+      "real_cells": 225
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "GLPG0634",
+      "dosage": 1.0,
+      "real_cells": 322
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "GSK256066",
+      "dosage": 1.0,
+      "real_cells": 332
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "HYDROXYUREA",
+      "dosage": 1.0,
+      "real_cells": 261
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Imatinib",
+      "dosage": 1.0,
+      "real_cells": 277
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Ixabepilone",
+      "dosage": 1.0,
+      "real_cells": 373
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Lamivudine",
+      "dosage": 1.0,
+      "real_cells": 270
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Lapatinib",
+      "dosage": 1.0,
+      "real_cells": 422
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Midostaurin",
+      "dosage": 1.0,
+      "real_cells": 252
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Navitoclax",
+      "dosage": 1.0,
+      "real_cells": 249
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Palbociclib",
+      "dosage": 1.0,
+      "real_cells": 365
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Prednisolone",
+      "dosage": 1.0,
+      "real_cells": 293
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "RG7090",
+      "dosage": 1.0,
+      "real_cells": 363
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Resminostat",
+      "dosage": 1.0,
+      "real_cells": 320
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Ricolinostat",
+      "dosage": 1.0,
+      "real_cells": 316
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Ruxolitinib",
+      "dosage": 1.0,
+      "real_cells": 346
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Selumetinib",
+      "dosage": 1.0,
+      "real_cells": 318
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Sunitinib",
+      "dosage": 1.0,
+      "real_cells": 336
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "TIE2 Kinase Inhibitor",
+      "dosage": 1.0,
+      "real_cells": 378
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "TPCA-1",
+      "dosage": 1.0,
+      "real_cells": 283
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Tivozanib",
+      "dosage": 1.0,
+      "real_cells": 374
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Topotecan",
+      "dosage": 1.0,
+      "real_cells": 414
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Tosedostat",
+      "dosage": 1.0,
+      "real_cells": 250
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Trametinib",
+      "dosage": 1.0,
+      "real_cells": 306
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "AT 7867",
+      "dosage": 1.0,
+      "real_cells": 679
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "AVL-292",
+      "dosage": 1.0,
+      "real_cells": 775
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Amiodarone",
+      "dosage": 1.0,
+      "real_cells": 700
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "BAY 61-3606",
+      "dosage": 1.0,
+      "real_cells": 612
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "BAY 87-2243",
+      "dosage": 1.0,
+      "real_cells": 721
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "CC-401",
+      "dosage": 1.0,
+      "real_cells": 614
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "CGP 60474",
+      "dosage": 1.0,
+      "real_cells": 14
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "CHIR-99021",
+      "dosage": 1.0,
+      "real_cells": 818
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Cabozantinib",
+      "dosage": 1.0,
+      "real_cells": 778
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Canertinib",
+      "dosage": 1.0,
+      "real_cells": 917
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Chlorpheniramine",
+      "dosage": 1.0,
+      "real_cells": 710
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Clomipramine",
+      "dosage": 1.0,
+      "real_cells": 696
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Colchicine",
+      "dosage": 1.0,
+      "real_cells": 409
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Colforsin",
+      "dosage": 1.0,
+      "real_cells": 609
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Dabrafenib",
+      "dosage": 1.0,
+      "real_cells": 9357
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Desloratadine",
+      "dosage": 1.0,
+      "real_cells": 619
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Doxorubicin",
+      "dosage": 1.0,
+      "real_cells": 555
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "FK 866",
+      "dosage": 1.0,
+      "real_cells": 532
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Flutamide",
+      "dosage": 1.0,
+      "real_cells": 468
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "GO-6976",
+      "dosage": 1.0,
+      "real_cells": 604
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "GW843682X",
+      "dosage": 1.0,
+      "real_cells": 715
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Ganetespib (STA-9090)",
+      "dosage": 1.0,
+      "real_cells": 544
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "HMN-214",
+      "dosage": 1.0,
+      "real_cells": 920
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "IMD-0354",
+      "dosage": 1.0,
+      "real_cells": 632
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "IN1451",
+      "dosage": 1.0,
+      "real_cells": 612
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Ketoconazole",
+      "dosage": 1.0,
+      "real_cells": 738
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Lamivudine",
+      "dosage": 1.0,
+      "real_cells": 546
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Linagliptin",
+      "dosage": 1.0,
+      "real_cells": 652
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Midostaurin",
+      "dosage": 1.0,
+      "real_cells": 466
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Nefazodone",
+      "dosage": 1.0,
+      "real_cells": 525
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Nilotinib",
+      "dosage": 1.0,
+      "real_cells": 529
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "OSI-930",
+      "dosage": 1.0,
+      "real_cells": 624
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Penfluridol",
+      "dosage": 1.0,
+      "real_cells": 720
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Pitavastatin Calcium",
+      "dosage": 1.0,
+      "real_cells": 737
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "RG7090",
+      "dosage": 1.0,
+      "real_cells": 754
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "RG7112",
+      "dosage": 1.0,
+      "real_cells": 729
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Ricolinostat",
+      "dosage": 1.0,
+      "real_cells": 652
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "SB525334",
+      "dosage": 1.0,
+      "real_cells": 716
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "SCH-58261",
+      "dosage": 1.0,
+      "real_cells": 539
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Scriptaid",
+      "dosage": 1.0,
+      "real_cells": 899
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Selumetinib",
+      "dosage": 1.0,
+      "real_cells": 600
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "TGX 221",
+      "dosage": 1.0,
+      "real_cells": 631
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "TL_HRAS26",
+      "dosage": 1.0,
+      "real_cells": 583
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Tipifarnib",
+      "dosage": 1.0,
+      "real_cells": 578
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Topotecan",
+      "dosage": 1.0,
+      "real_cells": 764
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Trametinib",
+      "dosage": 1.0,
+      "real_cells": 753
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Vandetanib",
+      "dosage": 1.0,
+      "real_cells": 611
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Vardenafil",
+      "dosage": 1.0,
+      "real_cells": 611
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Vorinostat",
+      "dosage": 1.0,
+      "real_cells": 809
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "ABT737",
+      "dosage": 1.0,
+      "real_cells": 41
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "AT13387",
+      "dosage": 1.0,
+      "real_cells": 13
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Alogliptin",
+      "dosage": 1.0,
+      "real_cells": 60
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Amiodarone",
+      "dosage": 1.0,
+      "real_cells": 62
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "BMS-265246",
+      "dosage": 1.0,
+      "real_cells": 77
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "BMS-536924",
+      "dosage": 1.0,
+      "real_cells": 53
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "BX 912",
+      "dosage": 1.0,
+      "real_cells": 88
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "CC-401",
+      "dosage": 1.0,
+      "real_cells": 127
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "CGM-097",
+      "dosage": 1.0,
+      "real_cells": 445
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "CHIR-99021",
+      "dosage": 1.0,
+      "real_cells": 83
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Clemastine",
+      "dosage": 1.0,
+      "real_cells": 127
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Dactolisib",
+      "dosage": 1.0,
+      "real_cells": 55
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Dasatinib",
+      "dosage": 1.0,
+      "real_cells": 41
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Defactinib",
+      "dosage": 1.0,
+      "real_cells": 87
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Disulfiram",
+      "dosage": 1.0,
+      "real_cells": 55
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "GSK-1070916",
+      "dosage": 1.0,
+      "real_cells": 94
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "GW843682X",
+      "dosage": 1.0,
+      "real_cells": 81
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "HMN-214",
+      "dosage": 1.0,
+      "real_cells": 76
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "I-BET151",
+      "dosage": 1.0,
+      "real_cells": 151
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "IMD-0354",
+      "dosage": 1.0,
+      "real_cells": 41
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Imatinib",
+      "dosage": 1.0,
+      "real_cells": 71
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "LDN 193189",
+      "dosage": 1.0,
+      "real_cells": 73
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Linagliptin",
+      "dosage": 1.0,
+      "real_cells": 77
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "MK-5108",
+      "dosage": 1.0,
+      "real_cells": 59
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Mubritinib (TAK 165)",
+      "dosage": 1.0,
+      "real_cells": 68
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "PD-0325901",
+      "dosage": 1.0,
+      "real_cells": 65
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "PF-04691502",
+      "dosage": 1.0,
+      "real_cells": 46
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Penfluridol",
+      "dosage": 1.0,
+      "real_cells": 76
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Perhexiline",
+      "dosage": 1.0,
+      "real_cells": 43
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Pitavastatin Calcium",
+      "dosage": 1.0,
+      "real_cells": 45
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Porcn Inhibitor III",
+      "dosage": 1.0,
+      "real_cells": 59
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "R428",
+      "dosage": 1.0,
+      "real_cells": 106
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "RN-486",
+      "dosage": 1.0,
+      "real_cells": 62
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "RVX-208",
+      "dosage": 1.0,
+      "real_cells": 63
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Raloxifene",
+      "dosage": 1.0,
+      "real_cells": 47
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "TPCA-1",
+      "dosage": 1.0,
+      "real_cells": 109
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "TR-14035",
+      "dosage": 1.0,
+      "real_cells": 110
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Vanoxerine",
+      "dosage": 1.0,
+      "real_cells": 100
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "ABT-199 (GDC-0199)",
+      "dosage": 1.0,
+      "real_cells": 65
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "AMD-070 (hydrochloride)",
+      "dosage": 1.0,
+      "real_cells": 40
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "AT 7867",
+      "dosage": 1.0,
+      "real_cells": 44
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "AZD-8330",
+      "dosage": 1.0,
+      "real_cells": 39
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "BAY 61-3606",
+      "dosage": 1.0,
+      "real_cells": 18
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "CEP-37440",
+      "dosage": 1.0,
+      "real_cells": 64
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Cabozantinib",
+      "dosage": 1.0,
+      "real_cells": 54
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Colchicine",
+      "dosage": 1.0,
+      "real_cells": 28
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Desloratadine",
+      "dosage": 1.0,
+      "real_cells": 56
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "FK 866",
+      "dosage": 1.0,
+      "real_cells": 46
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Foretinib",
+      "dosage": 1.0,
+      "real_cells": 41
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "GLPG0634",
+      "dosage": 1.0,
+      "real_cells": 26
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Idelalisib",
+      "dosage": 1.0,
+      "real_cells": 35
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Isoniazid",
+      "dosage": 1.0,
+      "real_cells": 50
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Ketoconazole",
+      "dosage": 1.0,
+      "real_cells": 35
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "LY2090314",
+      "dosage": 1.0,
+      "real_cells": 44
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Masitinib",
+      "dosage": 1.0,
+      "real_cells": 68
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Mometasone Furoate",
+      "dosage": 1.0,
+      "real_cells": 38
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Mubritinib (TAK 165)",
+      "dosage": 1.0,
+      "real_cells": 33
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Navitoclax",
+      "dosage": 1.0,
+      "real_cells": 58
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Nilotinib",
+      "dosage": 1.0,
+      "real_cells": 28
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "OSI-930",
+      "dosage": 1.0,
+      "real_cells": 49
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Oxybenzone",
+      "dosage": 1.0,
+      "real_cells": 52
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "PF-04691502",
+      "dosage": 1.0,
+      "real_cells": 15
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Palbociclib",
+      "dosage": 1.0,
+      "real_cells": 49
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Phenylbutazone",
+      "dosage": 1.0,
+      "real_cells": 67
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Pomalidomide",
+      "dosage": 1.0,
+      "real_cells": 67
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Porcn Inhibitor III",
+      "dosage": 1.0,
+      "real_cells": 50
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Protriptyline",
+      "dosage": 1.0,
+      "real_cells": 58
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "SLx-2119",
+      "dosage": 1.0,
+      "real_cells": 33
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Sgc-cbp30",
+      "dosage": 1.0,
+      "real_cells": 45
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Sunitinib",
+      "dosage": 1.0,
+      "real_cells": 52
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "TIE2 Kinase Inhibitor",
+      "dosage": 1.0,
+      "real_cells": 58
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Tacalcitol",
+      "dosage": 1.0,
+      "real_cells": 34
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Vanoxerine",
+      "dosage": 1.0,
+      "real_cells": 46
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Vardenafil",
+      "dosage": 1.0,
+      "real_cells": 56
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "YK 4-279",
+      "dosage": 1.0,
+      "real_cells": 38
+    }
+  ],
+  "ood": [
+    {
+      "cell_type": "B cells",
+      "drug": "Atorvastatin",
+      "dosage": 1.0,
+      "real_cells": 267
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Crizotinib",
+      "dosage": 1.0,
+      "real_cells": 215
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "MGCD-265",
+      "dosage": 1.0,
+      "real_cells": 243
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "O-Demethylated Adapalene",
+      "dosage": 1.0,
+      "real_cells": 255
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Quizartinib",
+      "dosage": 1.0,
+      "real_cells": 309
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "STK219801",
+      "dosage": 1.0,
+      "real_cells": 279
+    },
+    {
+      "cell_type": "B cells",
+      "drug": "Tamatinib",
+      "dosage": 1.0,
+      "real_cells": 247
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Atorvastatin",
+      "dosage": 1.0,
+      "real_cells": 266
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Crizotinib",
+      "dosage": 1.0,
+      "real_cells": 117
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "MGCD-265",
+      "dosage": 1.0,
+      "real_cells": 234
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "O-Demethylated Adapalene",
+      "dosage": 1.0,
+      "real_cells": 204
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Quizartinib",
+      "dosage": 1.0,
+      "real_cells": 283
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "STK219801",
+      "dosage": 1.0,
+      "real_cells": 378
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "drug": "Tamatinib",
+      "dosage": 1.0,
+      "real_cells": 45
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Atorvastatin",
+      "dosage": 1.0,
+      "real_cells": 381
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Crizotinib",
+      "dosage": 1.0,
+      "real_cells": 305
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "MGCD-265",
+      "dosage": 1.0,
+      "real_cells": 337
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "O-Demethylated Adapalene",
+      "dosage": 1.0,
+      "real_cells": 301
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Quizartinib",
+      "dosage": 1.0,
+      "real_cells": 294
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "STK219801",
+      "dosage": 1.0,
+      "real_cells": 368
+    },
+    {
+      "cell_type": "NK cells",
+      "drug": "Tamatinib",
+      "dosage": 1.0,
+      "real_cells": 334
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Atorvastatin",
+      "dosage": 1.0,
+      "real_cells": 686
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Crizotinib",
+      "dosage": 1.0,
+      "real_cells": 506
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "MGCD-265",
+      "dosage": 1.0,
+      "real_cells": 675
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "O-Demethylated Adapalene",
+      "dosage": 1.0,
+      "real_cells": 598
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Quizartinib",
+      "dosage": 1.0,
+      "real_cells": 681
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "STK219801",
+      "dosage": 1.0,
+      "real_cells": 566
+    },
+    {
+      "cell_type": "T cells CD4+",
+      "drug": "Tamatinib",
+      "dosage": 1.0,
+      "real_cells": 671
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Atorvastatin",
+      "dosage": 1.0,
+      "real_cells": 80
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Crizotinib",
+      "dosage": 1.0,
+      "real_cells": 87
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "MGCD-265",
+      "dosage": 1.0,
+      "real_cells": 113
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "O-Demethylated Adapalene",
+      "dosage": 1.0,
+      "real_cells": 74
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Quizartinib",
+      "dosage": 1.0,
+      "real_cells": 56
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "STK219801",
+      "dosage": 1.0,
+      "real_cells": 83
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "drug": "Tamatinib",
+      "dosage": 1.0,
+      "real_cells": 56
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Atorvastatin",
+      "dosage": 1.0,
+      "real_cells": 58
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Crizotinib",
+      "dosage": 1.0,
+      "real_cells": 37
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "MGCD-265",
+      "dosage": 1.0,
+      "real_cells": 38
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "O-Demethylated Adapalene",
+      "dosage": 1.0,
+      "real_cells": 45
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Quizartinib",
+      "dosage": 1.0,
+      "real_cells": 27
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "STK219801",
+      "dosage": 1.0,
+      "real_cells": 62
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "drug": "Tamatinib",
+      "dosage": 1.0,
+      "real_cells": 28
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Final paper model; numerical values come from frozen set4 runs.
+architecture: scdvd
+chemical_feature_path: ${paths.data_root}/${dataset_name}/features/unimol.npy
+condition:
+  dropout: 0.1
+  output_dim: 256
+denoiser:
+  cell_layers: 4
+  center_cell_deviation: true
+  center_population_correction: true
+  condition_dropout: 0.2
+  control_dropout: 0.0
+  detach_population_context: true
+  hidden_dim: 512
+  mlp_ratio: 4
+  num_heads: 8
+  population_correction_eps: 1.0e-06
+  population_correction_reference: cell_deviation
+  population_correction_rms_ratio: null
+  population_gate_enabled: false
+  population_gate_initial: 0.1
+  population_gate_max: 0.5
+  population_gate_min: 0.05
+  population_layers: 4
+diffusion:
+  num_timesteps: 1000
+  schedule: linear
+  timestep_respacing: null
+mask:
+  condition_dim: 256
+  dropout: 0.1
+  hidden_dim: 512
+  num_blocks: 3
+objective:
+  distribution_loss: geomloss_energy
+  distribution_support: raw
+  distribution_timestep: sampled
+  energy_transform: identity
+  energy_weight: 0.0
+  guidance_scale: 1.5
+  mask_padded_cells: true
+  mmd_bandwidth_scales:
+  - 0.5
+  - 1.0
+  - 2.0
+  - 4.0
+  mmd_weight: 0.001
+  response_scale: 1.0
+  self_condition_probability: 0.25
+  zero_expression_weight: 0.0
+population:
+  set_size: 4

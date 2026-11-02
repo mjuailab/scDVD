@@ -1,0 +1,29 @@
+{
+  "dataset_id": "OP3_r1_s2",
+  "dataset": "OP3",
+  "repeat": 1,
+  "split_index": 2,
+  "repeat_seed": 759689268,
+  "split_seed": 1512776240,
+  "ood_drugs": [
+    "Ganetespib (STA-9090)",
+    "Linagliptin",
+    "Midostaurin",
+    "Palbociclib",
+    "Protriptyline",
+    "Selumetinib",
+    "TL_HRAS26"
+  ],
+  "ood_count": 7,
+  "split_sha256": "c749ebf3f4860cbdf73671057f45662f2f7d3e874c892f67c6d7e9039a2741c0",
+  "train_conditions": 568,
+  "test_conditions": 243,
+  "actual_test_fraction": 0.2996300863131936,
+  "controls_all_train": true,
+  "cell_counts": {
+    "train": 206568,
+    "test": 80844,
+    "ood": 10675
+  },
+  "h5ad": "data/op3/r1/s2/data.h5ad"
+}

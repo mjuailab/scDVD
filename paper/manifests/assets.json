@@ -1,0 +1,34 @@
+{
+  "sciplex3": {
+    "unimol.npy": {
+      "sha256": "9013302636bf68a139aabee2d43f0e661f71861450ae8c03f155876a0d90e2a5",
+      "source_path": "ChEMBL_dti/dataset_drugs_chembl37_string700/all_drug_node_feat_unimol.npy",
+      "download_url": null
+    },
+    "drug_lookup.csv": {
+      "sha256": "e4026da831ef49f86a6e1dfcb4bf621c78c8bbe78c0386b9f166f7ce12b64a54",
+      "source_path": "ChEMBL_dti/dataset_drugs_chembl37_string700/sciplex3_drug_lookup.csv",
+      "download_url": null
+    },
+    "preprocessed_h5ad": {
+      "source_path": "sciplex3/processed/sciplex3_geo_doloris_ood_2000hvg_seed42.h5ad",
+      "download_url": null
+    }
+  },
+  "op3": {
+    "unimol.npy": {
+      "sha256": "0a281a93da4bb12db7c20e32c8e28871c60158b7a89dfd383356fcee019911b2",
+      "source_path": "scdvd_geomloss_multiseed_20260926/features/unimol.npy",
+      "download_url": null
+    },
+    "drug_lookup.csv": {
+      "sha256": "a0c4ec4e2ced935186123ff42f6d15488ff8e539d8fc0eecb4dd2a2c2b2140af",
+      "source_path": "scdvd_geomloss_multiseed_20260926/features/drug_lookup.csv",
+      "download_url": null
+    },
+    "preprocessed_h5ad": {
+      "source_path": "sc/op3/splits/op3_6ct_drugood0.05_condition_test0.3_seed42/op3.h5ad",
+      "download_url": null
+    }
+  }
+}

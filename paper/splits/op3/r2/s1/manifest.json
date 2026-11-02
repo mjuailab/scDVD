@@ -1,0 +1,29 @@
+{
+  "dataset_id": "OP3_r2_s1",
+  "dataset": "OP3",
+  "repeat": 2,
+  "split_index": 1,
+  "repeat_seed": 1530920259,
+  "split_seed": 2837791879,
+  "ood_drugs": [
+    "5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine",
+    "Alvocidib",
+    "Amiodarone",
+    "BAY 61-3606",
+    "Oxybenzone",
+    "Ruxolitinib",
+    "Vorinostat"
+  ],
+  "ood_count": 7,
+  "split_sha256": "b0e42157046c20bad3cf50655814cc202d8a46269ce61a54bc55a3ad1504a0b1",
+  "train_conditions": 568,
+  "test_conditions": 244,
+  "actual_test_fraction": 0.30049261083743845,
+  "controls_all_train": true,
+  "cell_counts": {
+    "train": 205447,
+    "test": 83492,
+    "ood": 9148
+  },
+  "h5ad": "data/op3/r2/s1/data.h5ad"
+}

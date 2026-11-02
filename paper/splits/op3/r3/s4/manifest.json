@@ -1,0 +1,29 @@
+{
+  "dataset_id": "OP3_r3_s4",
+  "dataset": "OP3",
+  "repeat": 3,
+  "split_index": 4,
+  "repeat_seed": 1274632394,
+  "split_seed": 3205192601,
+  "ood_drugs": [
+    "Atorvastatin",
+    "Crizotinib",
+    "MGCD-265",
+    "O-Demethylated Adapalene",
+    "Quizartinib",
+    "STK219801",
+    "Tamatinib"
+  ],
+  "ood_count": 7,
+  "split_sha256": "87a2c5512ebce4a3763c0604d9cf4223f4483909228f36df6fe498d852c33af3",
+  "train_conditions": 568,
+  "test_conditions": 243,
+  "actual_test_fraction": 0.2996300863131936,
+  "controls_all_train": true,
+  "cell_counts": {
+    "train": 209549,
+    "test": 77649,
+    "ood": 10889
+  },
+  "h5ad": "data/op3/r3/s4/data.h5ad"
+}

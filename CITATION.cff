@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying scDVD manuscript when using this software."
+title: "scDVD: single-cell Dual-view Diffusion for Perturbation Prediction"
+type: software
+authors:
+  - family-names: Song
+    given-names: Seunghoo
+    affiliation: "Department of Artificial Intelligence, Myongji University"
+  - family-names: Oh
+    given-names: Minsik
+    affiliation: "Department of Artificial Intelligence, Myongji University"
+version: 0.2.0
+url: "https://github.com/seunghoo123/scDVD"
+repository-code: "https://github.com/seunghoo123/scDVD"
+abstract: "Control-anchored dual-view diffusion for prediction of single-cell drug perturbations."
