@@ -10,6 +10,6 @@ authors:
     given-names: Minsik
     affiliation: "Department of Artificial Intelligence, Myongji University"
 version: 0.2.0
-url: "https://github.com/seunghoo123/scDVD"
-repository-code: "https://github.com/seunghoo123/scDVD"
+url: "https://github.com/mjuailab/scDVD"
+repository-code: "https://github.com/mjuailab/scDVD"
 abstract: "Control-anchored dual-view diffusion for prediction of single-cell drug perturbations."

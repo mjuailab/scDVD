@@ -23,8 +23,8 @@ dev = ["pytest>=7"]
 scdvd = "scdvd.cli:main"
 
 [project.urls]
-Repository = "https://github.com/seunghoo123/scDVD"
-Issues = "https://github.com/seunghoo123/scDVD/issues"
+Repository = "https://github.com/mjuailab/scDVD"
+Issues = "https://github.com/mjuailab/scDVD/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

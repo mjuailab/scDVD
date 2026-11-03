@@ -9,7 +9,7 @@ The publication-facing source contains the canonical set4 model, portable config
 checkpoint relocation support, a CPU example, tests, exact paper splits and table
 inputs. The manuscript PDF itself is not copied into release bundles.
 
-The source repository is https://github.com/seunghoo123/scDVD.
+The source repository is https://github.com/mjuailab/scDVD.
 The project license and public download locations for data/features and
 checkpoints are not yet assigned. No license grant, DOI or acceptance venue has
 been assumed by this refactor. `CITATION.cff` records the known authors, title,

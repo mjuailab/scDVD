@@ -29,7 +29,7 @@ See [the method and implementation map](docs/method.md).
 Python 3.10 is the verified reference interpreter.
 
 ```bash
-git clone https://github.com/seunghoo123/scDVD.git
+git clone https://github.com/mjuailab/scDVD.git
 cd scDVD
 python -m pip install -r requirements/paper.txt
 python -m pip install -e '.[data]'
@@ -141,6 +141,6 @@ python scripts/export_release.py --output ../scDVD_source.tar.gz
 ## Citation and release metadata
 
 Author and title metadata are provided in [CITATION.cff](CITATION.cff).
-The source repository is [github.com/seunghoo123/scDVD](https://github.com/seunghoo123/scDVD).
+The source repository is [github.com/mjuailab/scDVD](https://github.com/mjuailab/scDVD).
 A project license, public data/checkpoint download locations, and publication or
 release DOIs have not yet been assigned; see [release notes](docs/release.md).
