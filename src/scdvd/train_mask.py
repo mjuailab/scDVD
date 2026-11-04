@@ -12,7 +12,7 @@ from scdvd.runtime import metadata_dict, record_run
 from scdvd.mask_module import EmpiricalMaskModule
 
 
-@hydra.main(version_base=None, config_path="configs", config_name="sciplex3")
+@hydra.main(version_base=None, config_path="pkg://scdvd.configs", config_name="sciplex3")
 def main(config: DictConfig) -> None:
     L.seed_everything(int(config.seed), workers=True)
     training = config.mask_training

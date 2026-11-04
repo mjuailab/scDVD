@@ -1,0 +1,8 @@
+# Create the interpreter environment, then follow README.md to install
+# the CPU or CUDA PyTorch wheel and the pinned Python dependencies.
+name: scdvd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip

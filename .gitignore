@@ -19,4 +19,4 @@ dist/
 *.npz
 *.pdf
 *.bak*
-/paper/manifests/local_*.json
+/benchmarks/manifests/local_*.json

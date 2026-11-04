@@ -10,7 +10,7 @@ from scdvd.data import DiffusionDataModule
 from scdvd.runtime import metadata_dict, record_run
 
 
-@hydra.main(version_base=None, config_path="configs", config_name="sciplex3")
+@hydra.main(version_base=None, config_path="pkg://scdvd.configs", config_name="sciplex3")
 def main(config: DictConfig) -> None:
     L.seed_everything(int(config.seed), workers=True)
     data = DiffusionDataModule(

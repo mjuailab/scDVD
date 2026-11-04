@@ -244,7 +244,7 @@ def _print_table(summary: dict[str, dict[str, float | int]]) -> None:
         print(f"{scope.upper()}\t" + "\t".join(cells))
 
 
-@hydra.main(version_base=None, config_path="configs", config_name="sciplex3")
+@hydra.main(version_base=None, config_path="pkg://scdvd.configs", config_name="sciplex3")
 def main(config: DictConfig) -> None:
     if config.checkpoint is None:
         raise ValueError("Set checkpoint=/path/to/last.ckpt")

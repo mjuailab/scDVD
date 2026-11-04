@@ -1,5 +1,7 @@
 # Reproduction protocol
 
+[Back to README](../README.md) · [Running experiments](usage.md)
+
 ## Final experiments
 
 | Dataset | Cohort | Final experiment | Repeats × splits |
@@ -9,7 +11,7 @@
 
 All 30 selected jobs have completed train/TEST/OOD records. sciPlex3's nine
 OOD drugs stay fixed across repeats; OP3's seven OOD drugs change by repeat.
-`paper/splits/` contains original cell assignments, dose conventions, expected
+`benchmarks/splits/` contains original cell assignments, dose conventions, expected
 conditions and split manifests. The separate sciPlex3 repeat9 cohort is excluded
 from the final paper table bundle.
 
@@ -40,24 +42,24 @@ splits within each repeat, then mean and **sample SD** over three repeat means.
 The included run-metric CSV was extracted from final set4 comparison reports;
 its aggregation recreates the scDVD entries, not the baseline entries.
 
-`paper/manifests/runs.json` preserves the original checkpoint hashes and their
+`benchmarks/manifests/runs.json` preserves the original checkpoint hashes and their
 verification status. Exporting a recorded hash is not a fresh hash verification.
-The local refactor validation report separately identifies the actual checkpoints
-rehashed and compared with frozen-source inference.
+Use the compatibility command below to rehash a checkpoint and compare its
+predictions with the corresponding frozen implementation.
 
 ## Source and checkpoint compatibility
 
 The implementation starts from the frozen SciPlex3 final-run source; its core
-Python files match those of the final OP3 source. Compared with the old live
-folder, the final source removes the disabled population-gate parameters and
+Python files match those of the final OP3 source. The implementation removes
+the disabled population-gate parameters and
 preserves reference split membership when regrouping size-four sets.
 
 Loss functions are now in `scdvd.losses` and remain re-exported from
 `scdvd.module`. Checkpoint class paths and parameter names remain stable.
-Entry-point code moved into the installable package, with root-level wrappers.
+Entry-point code lives in the installable package, with wrappers in `scripts/`.
 
 ```bash
-python scripts/verify_frozen_compatibility.py \
+python tools/verify_frozen_compatibility.py \
   --reference /path/to/final_run/source \
   --checkpoint /path/to/final_run/checkpoint.ckpt \
   --output outputs/compatibility.json
@@ -71,12 +73,12 @@ for rerunning the complete 50-step benchmark on every condition.
 
 The manuscript's Figures 2–6 involve additional downstream direction/Pearson,
 UMAP, external-signature and GSEA workflows. Figures 7–8 use separate ablation
-and sensitivity experiments. This repository refactor includes model training,
+and sensitivity experiments. This repository includes model training,
 benchmark evaluation and table aggregation; it does not claim to reproduce all
 figure panels from one command. Preserve each analysis's own run/selection
 provenance when porting those workflows. The 35-gene external panel was selected
 post hoc, as described in the manuscript, and is not an unbiased ranking test.
 
-For subsequent figure work, use the workspace's `pub_plot_kit` foundation,
-label observed data `GT`, keep signed NES scales centered on zero, and distinguish
+For subsequent figure work, label observed data `GT`, keep signed NES scales
+centered on zero, and distinguish
 missing/untestable results from nonsignificant results.

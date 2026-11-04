@@ -52,14 +52,14 @@ def main():
     parser.add_argument('--output', type=Path, default=Path('data'))
     args = parser.parse_args()
     project = Path(__file__).resolve().parents[1]
-    released = project/'paper/splits'/args.dataset/f'r{args.repeat}'/f's{args.split}'
+    released = project/'benchmarks/splits'/args.dataset/f'r{args.repeat}'/f's{args.split}'
     output = args.output/args.dataset/f'r{args.repeat}'/f's{args.split}'/'data.h5ad'
     if output.exists():
         raise FileExistsError(output)
     features_dir = args.output/args.dataset/'features'
     # Verify before creating the output. The released feature row order is fixed.
     from scdvd.runtime import sha256
-    expected = json.loads((project/'paper/manifests/assets.json').read_text())[args.dataset]
+    expected = json.loads((project/'benchmarks/manifests/assets.json').read_text())[args.dataset]
     for source, name in [(args.features,'unimol.npy'),(args.lookup,'drug_lookup.csv')]:
         if sha256(source) != expected[name]['sha256']:
             raise ValueError(f'Wrong paper asset: {name}')
@@ -69,7 +69,7 @@ def main():
     adata = ad.read_h5ad(args.h5ad)
     if adata.n_vars != 2000:
         raise ValueError('The paper uses the fixed 2,000-HVG expression space')
-    genes = json.loads((project/'paper/manifests'/f'{args.dataset}_genes.json').read_text())
+    genes = json.loads((project/'benchmarks/manifests'/f'{args.dataset}_genes.json').read_text())
     if list(adata.var_names.astype(str)) != genes:
         raise ValueError('Gene identity/order differs from the paper')
     assignments = pd.read_csv(released/'cell_assignments.csv.gz')

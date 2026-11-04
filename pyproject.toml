@@ -26,12 +26,15 @@ scdvd = "scdvd.cli:main"
 Repository = "https://github.com/mjuailab/scDVD"
 Issues = "https://github.com/mjuailab/scDVD/issues"
 
-[tool.setuptools.packages.find]
-where = ["src"]
-include = ["scdvd*"]
+[tool.setuptools]
+packages = ["scdvd", "scdvd.data", "scdvd.diffusion", "scdvd.models", "scdvd.configs"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+"scdvd.configs" = "configs"
 
 [tool.setuptools.package-data]
-scdvd = ["configs/*.yaml", "configs/*/*.yaml"]
+"scdvd.configs" = ["*.yaml", "*/*.yaml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -1,13 +1,81 @@
-# Data and checkpoint assets
+# Data preparation and checkpoints
 
-`paper/manifests/assets.json` identifies the feature matrices and lookup tables
-by SHA-256. Download URLs are currently unassigned. The preprocessed H5ADs,
-features and checkpoints are not embedded in the source repository.
+[Back to README](../README.md) · [Running experiments](usage.md)
 
-The manuscript reports sciPlex3 log1p expression and OP3 normalization to 10,000
-counts per cell followed by log1p, with a fixed 2,000-HVG gene space. This release
-starts from those prepared representations; do not run raw counts through the
-prepared-data command and assume they reproduce the paper.
+## Original data sources
+
+| Dataset | Source used for scDVD | Additional reference |
+|---|---|---|
+| sciPlex3 | [GEO GSE139944](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139944), sample [GSM4150378](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4150378) | [Original sci-Plex code](https://github.com/cole-trapnell-lab/sci-plex) |
+| OP3 | [GEO GSE279945](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279945), `GSE279945_sc_counts_processed.h5ad` | [Open Problems competition description](https://openproblems.bio/events/2023-08_neurips/) |
+
+The OP3 source H5AD can be downloaded separately (approximately 14.2 GB):
+
+```bash
+mkdir -p data/raw/op3
+curl --fail --location --continue-at - \
+  --output data/raw/op3/GSE279945_sc_counts_processed.h5ad \
+  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279945/suppl/GSE279945_sc_counts_processed.h5ad
+```
+
+For sciPlex3, use the matrix and cell/gene annotation files linked under the
+GEO sample's supplementary files. The parent series includes other sci-Plex
+experiments as well; select sciPlex3. The OP3 competition's
+[Kaggle data page](https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/data)
+provides related competition data, but scDVD used the GEO H5AD identified above.
+
+## What is included
+
+| Resource | Availability |
+|---|---|
+| Exact cell assignments, expected conditions and dose conventions | Included in [`benchmarks/splits/`](../benchmarks/splits/) |
+| Ordered 2,000-gene lists and molecular-feature hashes | Included in [`benchmarks/manifests/`](../benchmarks/manifests/) |
+| Per-run metrics and table summaries | Included in [`benchmarks/results/`](../benchmarks/results/) |
+| scDVD-preprocessed H5AD files | Public download link not yet assigned |
+| Exact `unimol.npy` and `drug_lookup.csv` files | Public download links not yet assigned |
+| Diffusion and matching mask checkpoints | Public download links not yet assigned |
+
+[`assets.json`](../benchmarks/manifests/assets.json) records feature hashes and
+original asset paths. `source_path` fields describe experiment provenance, not
+paths available on a fresh clone. Checkpoint provenance is recorded in
+[`runs.json`](../benchmarks/manifests/runs.json).
+
+**A fresh clone supports the synthetic example and recorded-table aggregation
+after installation. Full paper training and evaluation also require the prepared
+assets above.** This release does not provide end-to-end raw-GEO preprocessing
+or Uni-Mol feature generation.
+
+## Paper preprocessing conventions
+
+Both datasets use a fixed, ordered **2,000-HVG** space, selected before benchmark
+splitting. This summarizes the recorded preparation; independently prepared
+H5ADs are not necessarily equivalent.
+
+| Step | sciPlex3 | OP3 |
+|---|---|---|
+| Expression | GEO matrix, `log1p` transformation | Source H5AD `raw.X` counts, normalize to 10,000 per cell, then `log1p` |
+| Gene space | Fixed 2,000 HVGs | Fixed 2,000 HVGs, Scanpy `seurat` flavor |
+| Cell context | A549, K562, MCF7 | Six original annotations from `cell_type_orig` |
+| Control reference | Vehicle cells | DMSO only (`sm_name == 'Dimethyl Sulfoxide'`) |
+| Batch context | Prepared `batch` column | `donor_id` mapped to `batch` |
+| Final OOD design | Nine fixed drugs in all repeats | Seven drugs per repeat, changing between repeats |
+
+For OP3, the source `control` column includes positive controls as well as DMSO.
+scDVD treats Dabrafenib and Belinostat as drug treatments. Copying the source
+`control` or reannotated four-class `cell_type` column unchanged would produce a
+different benchmark. The prepared `condition` uses `sm_name`, with DMSO renamed
+to `ctrl`; doses come from `dose_uM`, with control dose set to zero.
+
+Runtime scaling by the outer-training expression maximum is separate from this
+preprocessing. Do not pass raw counts to `prepare_data.py` or normalize an already
+prepared H5AD a second time.
+
+## Molecular features
+
+scDVD consumes fixed [Uni-Mol](https://github.com/deepmodeling/Uni-Mol) molecular
+embeddings. Each row of `unimol.npy` must correspond to `drug_idx` in its lookup
+table. Newly generated embeddings are not guaranteed to recover the exact paper
+matrix; use the recorded hashes to identify paper features.
 
 ## Prepare one exact paper split
 
@@ -23,13 +91,13 @@ gene order and molecular-feature hashes, then applies the saved per-cell split.
 It preserves expression values and source cell order. Rewriting H5AD may change
 its file checksum even when its contents are equivalent. The saved
 `split_sha256` is an original-run provenance field, not a hash of the rewritten
-H5AD file. Use the original released H5AD for byte-identical artifacts.
+H5AD file. Use the original run H5AD for byte-identical artifacts.
 
 ## H5AD contract
 
 `X` is a cells × genes dense or CSR expression matrix; `var` supplies ordered
 gene names and optionally `id`. Expected `obs` columns are configurable in
-`src/scdvd/configs/dataset/`:
+`configs/dataset/`:
 
 | Meaning | sciPlex3 | OP3 |
 |---|---|---|

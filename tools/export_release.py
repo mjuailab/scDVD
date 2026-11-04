@@ -6,8 +6,9 @@ from pathlib import Path
 import tarfile
 
 FILES = ('README.md', 'pyproject.toml', 'CITATION.cff', '.gitignore',
-         'train.py', 'train_mask.py', 'evaluate_diffusion.py')
-DIRECTORIES = ('src', 'scripts', 'tests', 'docs', 'examples', 'paper', 'requirements', '.github')
+         'environment.yml', 'requirements.txt')
+DIRECTORIES = ('src', 'configs', 'scripts', 'tools', 'tests', 'docs',
+               'examples', 'benchmarks', '.github')
 
 
 def release_files(root):
@@ -37,12 +38,6 @@ def main():
     with tarfile.open(args.output, 'w:gz') as archive:
         for path in files:
             archive.add(path, arcname=Path('scDVD')/path.relative_to(root), recursive=False)
-        # Source-tree compatibility paths also work in the exported bundle.
-        for name, target in [('scdvd','src/scdvd'),('config','src/scdvd/configs')]:
-            info = tarfile.TarInfo(f'scDVD/{name}')
-            info.type = tarfile.SYMTYPE
-            info.linkname = target
-            archive.addfile(info)
     print(f'Exported {len(files)} files: {args.output}')
 
 

@@ -4,7 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from hydra import compose, initialize_config_dir
+from hydra import compose, initialize_config_module
 import numpy as np
 from omegaconf import OmegaConf
 import torch
@@ -19,9 +19,7 @@ from test_regroup_padding import FakeStore
 
 
 def config(name='sciplex3'):
-    import scdvd
-    directory = Path(scdvd.__file__).resolve().parent/'configs'
-    with initialize_config_dir(version_base=None, config_dir=str(directory)):
+    with initialize_config_module(version_base=None, config_module='scdvd.configs'):
         return compose(config_name=name)
 
 

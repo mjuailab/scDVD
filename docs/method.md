@@ -1,7 +1,9 @@
 # Method and implementation map
 
+[Back to README](../README.md)
+
 This implementation follows *scDVD: single-cell Dual-view Diffusion for
-Perturbation Prediction*, the manuscript supplied for the November 2026 refactor.
+Perturbation Prediction*.
 The reference numerical implementation comes from the completed final set4 runs.
 
 | Manuscript component | Implementation |
@@ -62,6 +64,5 @@ reported as canonical scDVD. Set16 is a historical sensitivity comparison.
   empirical condition and whole binary patterns, with 0.01/0.99 thresholds.
   Candidates are not separately restricted to the queried cell type.
 
-The supplied main manuscript refers to Supplementary Methods, but no separate
-supplement was present. These details are therefore documented from actual final
-configs and frozen sources, rather than inferred from an unavailable supplement.
+These numerical details are documented from the final experiment configurations
+and frozen sources.
