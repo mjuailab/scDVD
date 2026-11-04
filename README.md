@@ -51,18 +51,26 @@ cd scDVD
 conda env create -f environment.yml
 conda activate scdvd
 
+# Update the installer before resolving the older reference wheels.
+python -m pip install --upgrade pip 'setuptools<82' wheel
+
 # GPU environment: install the CUDA 12.1 PyTorch wheel.
-python -m pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+python -m pip install torch==2.1.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
 python -m pip install -r requirements.txt
 python -m pip install --no-deps -e .
+python -m pip check
 scdvd --help
 ```
 
 For a CPU environment, replace the PyTorch command above with:
 
 ```bash
-python -m pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install torch==2.1.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 ```
+
+Keep PyPI enabled for general dependencies; the explicit `+cpu` / `+cu121`
+suffix selects the PyTorch build. Using only the PyTorch index can fail to resolve
+build dependencies in a fresh environment.
 
 See [Installation](docs/installation.md) for `venv`, CUDA 11.8, dependency versions
 and troubleshooting. Available wheel choices are documented by
@@ -79,6 +87,18 @@ and evaluates one synthetic held-out condition. It requires no downloaded data
 or GPU. Results appear under `outputs/cpu_demo/evaluation/`, including metrics
 and expression arrays named `GT` and `scDVD`. Choose a fresh output directory
 when rerunning. This example validates the pipeline; its metrics are not paper results.
+
+To exercise the OP3 column mappings and held-out-drug evaluation instead:
+
+```bash
+python examples/cpu_demo.py --config-name op3 --evaluation-split ood --output outputs/op3_demo
+```
+
+The default device is CPU. With a CUDA PyTorch build, add `--device cuda` to
+exercise GPU training and inference; select a GPU with `CUDA_VISIBLE_DEVICES`.
+
+See the [0.2.1 validation record](docs/validation.md) for fresh-install checks,
+CPU/GPU execution and comparisons with the original set4 checkpoints.
 
 ## Data
 
@@ -196,6 +216,7 @@ reproduction, see [Reproduction protocol](docs/reproduction.md).
 | [Model architecture](docs/method.md) · [한국어](docs/method_ko.md) | Diagram, mean/cell/population pathways, objective, generation and masking |
 | [Reproduction protocol](docs/reproduction.md) | Final experiments, aggregation and checkpoint compatibility |
 | [Development and releases](docs/development.md) | Tests, package builds and source export |
+| [Validation record](docs/validation.md) | Tested environments, execution checks and checkpoint comparisons |
 
 ## Citation
 

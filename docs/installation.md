@@ -49,21 +49,27 @@ and the Python dependencies below.
 
 ## 2. Install one PyTorch build
 
-Choose **one** command for your machine:
+First update the installer in the activated environment:
+
+```bash
+python -m pip install --upgrade pip 'setuptools<82' wheel
+```
+
+Then choose **one** PyTorch command for your machine:
 
 ```bash
 # CUDA 12.1 (final-run reference)
-python -m pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+python -m pip install torch==2.1.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
 ```
 
 ```bash
 # CUDA 11.8 (alternative wheel; not the final-run reference)
-python -m pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+python -m pip install torch==2.1.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 ```
 
 ```bash
 # CPU only (example and tests)
-python -m pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install torch==2.1.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
 These wheel locations are documented by
@@ -71,11 +77,24 @@ These wheel locations are documented by
 select a build supported by your NVIDIA driver. scDVD does not require
 `torchvision` or `torchaudio`.
 
+The local version suffix pins the CPU/CUDA build. `--extra-index-url` keeps
+PyPI available for general dependencies and their build tools. Replacing PyPI
+with the PyTorch-only index can fail with missing `flit_core` or inconsistent
+`typing-extensions` metadata, especially with the older pip shipped by Python
+3.10. Upgrading pip and using the commands above avoids that installation failure.
+
+The reference Lightning utilities import `pkg_resources`, which
+[setuptools removed in version 82](https://setuptools.pypa.io/en/stable/deprecated/pkg_resources.html).
+`requirements.txt` pins the original compatible setuptools version, and scDVD's
+package metadata also constrains it below 82. Do not upgrade setuptools alone
+past this bound in the reference environment.
+
 ## 3. Install scDVD
 
 ```bash
 python -m pip install -r requirements.txt
 python -m pip install --no-deps -e .
+python -m pip check
 scdvd --version
 scdvd --help
 ```
@@ -95,8 +114,10 @@ python examples/cpu_demo.py --output outputs/cpu_demo
 ```
 
 `--cfg job` prints the configuration without loading data or starting training.
-The example explicitly uses the CPU, including when a GPU is available. It
-requires a new output directory and reports `CPU demo passed` on success.
+The example defaults to CPU, including when a GPU is available. It requires a
+new output directory and reports `CPU demo passed` on success. Use `--device cuda`
+to explicitly check a GPU, or `--config-name op3 --evaluation-split ood` to check
+the OP3 input mappings and held-out-drug path.
 
 ## Troubleshooting
 
@@ -105,6 +126,8 @@ requires a new output directory and reports `CPU demo passed` on success.
 | `scdvd: command not found` | Activate the installed environment; try `python -m scdvd --help`. |
 | Missing `scdvd.configs` | Reinstall with `python -m pip install --no-deps -e .`. Configs are installed from the root `configs/` directory; setting `PYTHONPATH=src` alone is insufficient. |
 | Missing `geomloss` or `anndata` | Install `requirements.txt` in the same environment used to run scDVD. |
+| Missing `flit_core` or inconsistent `typing-extensions` metadata during PyTorch installation | Upgrade pip and use the build-specific `--extra-index-url` command above so build tools can resolve from PyPI. |
+| `No module named 'pkg_resources'` | Reinstall `requirements.txt`; the reference Lightning utilities need `setuptools<82`. |
 | NumPy ABI/import error with old PyTorch | Use the pinned `numpy==1.26.4` and a clean Python 3.10 environment. |
 | CUDA unavailable | Check the selected PyTorch wheel and driver; use the CPU demo to verify the pipeline independently. |
 | Data file not found | Prepare the dataset and set `SCDVD_DATA_ROOT`; paths are relative to your working directory by default. |

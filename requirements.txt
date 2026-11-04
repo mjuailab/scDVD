@@ -1,5 +1,7 @@
 # Versions observed in the environment used for the final set4 runs.
 # Install the torch build appropriate for the target CPU/CUDA environment first.
+# lightning-utilities 0.11.2 imports pkg_resources (removed in setuptools 82).
+setuptools==69.5.1
 torch==2.1.0
 lightning==2.2.4
 pytorch-lightning==2.2.2

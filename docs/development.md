@@ -23,12 +23,16 @@ python -m unittest discover -s tests -v
 scdvd train --config-name sciplex3 --cfg job
 scdvd evaluate --config-name op3 --cfg job
 python examples/cpu_demo.py --output outputs/cpu_demo_check
+python examples/cpu_demo.py --config-name op3 --evaluation-split ood --output outputs/op3_demo_check
 ```
 
 The tests cover loss values, balanced sampling, split isolation, padding,
 checkpoint loading, data assignments and table aggregation. The synthetic CPU
-example exercises diffusion training, mask training and masked evaluation.
-GitHub Actions runs these checks against an installed package with CPU PyTorch.
+example exercises diffusion training, mask training and masked evaluation, checking
+optimizer steps, finite validation scores, checkpoint tensors and prediction metrics.
+Both dataset mappings are exercised in CI. Add `--device cuda` to explicitly run
+the example on a GPU; CPU remains the default. GitHub Actions also checks dependency
+consistency and loads installed configurations outside the checkout with CPU PyTorch.
 
 ## Build a Python package
 
