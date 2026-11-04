@@ -13,7 +13,8 @@ empirical masking to recover expression sparsity.
 
 The paper model uses **set size 4**, with the population-correction RMS cap and
 population gate removed. Dose gates and residual-block modulation gates remain.
-See [Method](docs/method.md) for the architecture and implementation.
+See [Model architecture](docs/method.md) ([한국어](docs/method_ko.md)) for the
+overall flow, output decomposition and implementation details.
 
 ## Repository structure
 
@@ -192,7 +193,7 @@ reproduction, see [Reproduction protocol](docs/reproduction.md).
 | [Installation](docs/installation.md) | Python environment, CPU/CUDA wheels, troubleshooting |
 | [Data preparation](docs/data.md) | Original sources, asset availability, H5AD and feature format |
 | [Running experiments](docs/usage.md) | Configurations, training, evaluation, output paths |
-| [Method](docs/method.md) | Architecture, objective and implementation map |
+| [Model architecture](docs/method.md) · [한국어](docs/method_ko.md) | Diagram, mean/cell/population pathways, objective, generation and masking |
 | [Reproduction protocol](docs/reproduction.md) | Final experiments, aggregation and checkpoint compatibility |
 | [Development and releases](docs/development.md) | Tests, package builds and source export |
 
