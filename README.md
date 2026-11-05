@@ -1,10 +1,15 @@
-# scDVD
 
-**single-cell Dual-view Diffusion for Perturbation Prediction**
+<h1>
+  <img src="assets/scDVD_icon.png" alt="scDVD" width="55" align="absmiddle">
+  scDVD : single-cell Dual-view Diffusion for Perturbation Prediction
+</h1>
+
+
 
 Seunghoo Song and Minsik Oh · Department of Artificial Intelligence, Myongji University
 
 [Installation](#installation) · [Data](#data) · [Training](#training) · [Evaluation](#evaluation) · [Reproducibility](#reproducibility) · [Documentation](#documentation)
+
 
 scDVD predicts single-cell gene expression responses to drug perturbations from
 unpaired control and treated cells. It combines a condition-dependent mean with
