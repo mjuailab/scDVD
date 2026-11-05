@@ -10,9 +10,15 @@ scDVD predicts single-cell gene expression responses to drug perturbations using
 
 **Navigate:** [Overview](#overview) · [Installation](#installation) · [Data](#data) · [Training](#training) · [Evaluation](#evaluation) · [Reproducibility](#reproducibility) · [Documentation](#documentation)
 
+
 ## Overview
 
 scDVD models the **control-relative perturbation response** through three complementary components:
+
+<p align="center">
+  <img src="assets/scDVD.png" alt="scDVD model architecture" width="850">
+</p>
+
 
 | Component | Role |
 |---|---|
