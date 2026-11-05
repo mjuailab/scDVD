@@ -1,65 +1,46 @@
-
 <h1>
-  <img src="assets/scDVD_icon.png" alt="scDVD" width="55" align="absmiddle">
+  <img src="assets/scDVD_icon.png" alt="scDVD icon" width="48" align="absmiddle">
   scDVD : single-cell Dual-view Diffusion for Perturbation Prediction
 </h1>
 
+**Seunghoo Song** and **Minsik Oh**  
+Department of Artificial Intelligence, Myongji University
 
+scDVD predicts single-cell gene expression responses to drug perturbations using **unpaired control and treated scRNA-seq populations**. Its control-anchored diffusion framework combines condition-level changes with cell-specific and population-informed variation to generate heterogeneous treated-cell expression distributions.
 
-Seunghoo Song and Minsik Oh · Department of Artificial Intelligence, Myongji University
+**Navigate:** [Overview](#overview) · [Installation](#installation) · [Data](#data) · [Training](#training) · [Evaluation](#evaluation) · [Reproducibility](#reproducibility) · [Documentation](#documentation)
 
-[Installation](#installation) · [Data](#data) · [Training](#training) · [Evaluation](#evaluation) · [Reproducibility](#reproducibility) · [Documentation](#documentation)
+## Overview
 
+scDVD models the **control-relative perturbation response** through three complementary components:
 
-scDVD predicts single-cell gene expression responses to drug perturbations from
-unpaired control and treated cells. It combines a condition-dependent mean with
-cell and population views in a control-anchored diffusion model, followed by
-empirical masking to recover expression sparsity.
+| Component | Role |
+|---|---|
+| **Condition-induced shift** | Captures the transcriptional change shared across cells under a given condition. |
+| **Population-informed correction** | Uses interactions among target and matched control cells to refine predictions. |
+| **Cell-specific deviation** | Models individual expression differences without cross-cell attention. |
 
-The paper model uses **set size 4**, with the population-correction RMS cap and
-population gate removed. Dose gates and residual-block modulation gates remain.
-See [Model architecture](docs/method.md) ([한국어](docs/method_ko.md)) for the
-overall flow, output decomposition and implementation details.
+The predicted response is added to a matched control reference to obtain treated-cell expression. A separate empirical mask predictor restores expression sparsity.
 
-## Repository structure
-
-```text
-scDVD/
-├── configs/             # Dataset, model and training settings
-│   ├── sciplex3.yaml
-│   ├── op3.yaml
-│   ├── dataset/
-│   ├── model/
-│   └── training/
-├── src/scdvd/           # Installable model, data loaders, losses and evaluation
-├── scripts/             # Training/evaluation entry points, data preparation, tables
-├── examples/            # Small synthetic CPU example
-├── benchmarks/          # Exact paper splits, provenance and recorded results
-├── docs/                # Installation, data, usage and reproduction guides
-├── tests/               # Model and data-contract checks
-├── tools/               # Checkpoint compatibility and source export utilities
-├── environment.yml      # Conda Python environment
-└── requirements.txt     # Reference package versions
-```
-
-`data/` and `outputs/` are created locally and excluded from Git. Run the commands
-below from the repository root after installing the package.
+**Paper configuration:** Set size **K = 4**. The population-correction RMS cap and population gate are removed; dose gates and residual-block modulation gates remain. For the full architecture and implementation details, see [Model architecture](docs/method.md) ([한국어](docs/method_ko.md)).
 
 ## Installation
 
-The reference environment is **Linux, Python 3.10 and PyTorch 2.1.0**. The final
-experiments used the CUDA 12.1 build of PyTorch.
+**Reference environment:** Linux · Python 3.10 · PyTorch 2.1.0 · CUDA 12.1 (GPU experiments).
+
+Clone the repository and create the Conda environment:
 
 ```bash
 git clone https://github.com/mjuailab/scDVD.git
 cd scDVD
 conda env create -f environment.yml
 conda activate scdvd
+```
 
-# Update the installer before resolving the older reference wheels.
+Install the reference PyTorch build and the remaining dependencies:
+
+```bash
 python -m pip install --upgrade pip 'setuptools<82' wheel
-
-# GPU environment: install the CUDA 12.1 PyTorch wheel.
 python -m pip install torch==2.1.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
 python -m pip install -r requirements.txt
 python -m pip install --no-deps -e .
@@ -67,59 +48,50 @@ python -m pip check
 scdvd --help
 ```
 
-For a CPU environment, replace the PyTorch command above with:
+**CPU only:** Replace the PyTorch installation command above with:
 
 ```bash
 python -m pip install torch==2.1.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
-Keep PyPI enabled for general dependencies; the explicit `+cpu` / `+cu121`
-suffix selects the PyTorch build. Using only the PyTorch index can fail to resolve
-build dependencies in a fresh environment.
+The explicit `+cu121` / `+cpu` suffix selects the PyTorch build. Keep PyPI enabled for other dependencies; using only the PyTorch index can prevent build dependencies from resolving.
 
-See [Installation](docs/installation.md) for `venv`, CUDA 11.8, dependency versions
-and troubleshooting. Available wheel choices are documented by
-[PyTorch](https://pytorch.org/get-started/previous-versions/#v210).
+See the [installation guide](docs/installation.md) for `venv`, CUDA 11.8, dependency versions, and troubleshooting. Available wheel variants are listed in the [PyTorch archive](https://pytorch.org/get-started/previous-versions/#v210).
 
 ### Quick start: synthetic CPU example
+
+Run the end-to-end pipeline **without downloading experimental data or using a GPU**:
 
 ```bash
 python examples/cpu_demo.py --output outputs/cpu_demo
 ```
 
-This trains a small diffusion model and mask predictor, reloads both checkpoints,
-and evaluates one synthetic held-out condition. It requires no downloaded data
-or GPU. Results appear under `outputs/cpu_demo/evaluation/`, including metrics
-and expression arrays named `GT` and `scDVD`. Choose a fresh output directory
-when rerunning. This example validates the pipeline; its metrics are not paper results.
+This example trains a small diffusion model and mask predictor, reloads the checkpoints, and evaluates a synthetic held-out condition. Results are saved in `outputs/cpu_demo/evaluation/`, including metrics and expression arrays named `GT` and `scDVD`.
 
-To exercise the OP3 column mappings and held-out-drug evaluation instead:
+To test the OP3 column mappings and held-out-drug evaluation:
 
 ```bash
 python examples/cpu_demo.py --config-name op3 --evaluation-split ood --output outputs/op3_demo
 ```
 
-The default device is CPU. With a CUDA PyTorch build, add `--device cuda` to
-exercise GPU training and inference; select a GPU with `CUDA_VISIBLE_DEVICES`.
+The demo defaults to CPU. With a CUDA-enabled PyTorch build, add `--device cuda` to run it on a GPU; use `CUDA_VISIBLE_DEVICES` to select a device. Choose a new output directory for each rerun.
 
-See the [0.2.1 validation record](docs/validation.md) for fresh-install checks,
-CPU/GPU execution and comparisons with the original set4 checkpoints.
+> The demo validates the execution pipeline; its metrics are **not** the paper results. Fresh-install and CPU/GPU checks are documented in the [validation record](docs/validation.md).
 
 ## Data
 
-| Dataset | Original data | scDVD experiment |
+The experiments use two publicly available single-cell drug perturbation datasets:
+
+| Dataset | Original data | Experiment setting |
 |---|---|---|
-| sciPlex3 | [GEO GSE139944](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139944), sample [GSM4150378](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4150378) | A549, K562 and MCF7; nine fixed OOD drugs; 3 repeats × 5 splits |
-| OP3 | [GEO GSE279945](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279945) ([H5AD download](https://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279945/suppl/GSE279945_sc_counts_processed.h5ad)) | Six original cell types; seven OOD drugs per repeat; 3 repeats × 5 splits |
+| **sciPlex3** | [GSE139944](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139944) · [Sample GSM4150378](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4150378) | A549, K562, MCF7; 9 fixed OOD drugs; 3 repeats × 5 splits |
+| **OP3** | [GSE279945](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279945) · [Processed H5AD](https://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279945/suppl/GSE279945_sc_counts_processed.h5ad) | 6 original cell types; 7 OOD drugs per repeat; 3 repeats × 5 splits |
 
-**Asset availability.** This repository includes exact cell assignments, ordered
-gene lists, feature hashes and recorded metrics. The scDVD-preprocessed H5ADs,
-Uni-Mol feature matrices and pretrained checkpoints do **not yet have public
-download links**. Original GEO files need further preprocessing and cannot be
-passed directly to the paper training commands. See [Data preparation](docs/data.md)
-for sources, preprocessing conventions and the required input files.
+**Data availability:** The repository contains exact cell assignments, ordered gene lists, feature hashes, and recorded metrics. However, public download links are **not yet available** for the scDVD-preprocessed H5AD files, Uni-Mol feature matrices, or pretrained checkpoints. Original GEO files require additional preprocessing and cannot be used directly with the paper training commands. See [Data preparation](docs/data.md) for the expected inputs and conventions.
 
-If you already have the matching prepared data and features, create one split:
+### Prepare an experiment split
+
+If the matching preprocessed expression data and molecular features are available, create a split using:
 
 ```bash
 python scripts/prepare_data.py --dataset sciplex3 \
@@ -129,8 +101,7 @@ python scripts/prepare_data.py --dataset sciplex3 \
   --repeat 1 --split 1 --output data
 ```
 
-This validates the prepared inputs and applies the released cell assignment;
-it does not perform raw-data preprocessing. The resulting layout is:
+The script validates the inputs and applies the released cell assignments; **it does not preprocess raw GEO data**. The resulting files follow this structure:
 
 ```text
 data/
@@ -144,31 +115,27 @@ data/
 
 ## Training
 
-After preparing a split, train the diffusion model and the separate mask predictor:
+After preparing a split, train the diffusion model and separate mask predictor:
 
 ```bash
 scdvd train --config-name sciplex3 repeat=1 split=1
 scdvd train-mask --config-name sciplex3 repeat=1 split=1
 ```
 
-Replace `sciplex3` with `op3` for OP3. Both stages print the path of the checkpoint
-with the lowest validation loss. Default checkpoint directories are:
+Use `--config-name op3` for OP3. Both commands report the checkpoint with the lowest validation loss. The default output directories are:
 
 ```text
-outputs/sciplex3_r1_s1_set4/   # Diffusion checkpoints and training metadata
-outputs/sciplex3_r1_s1_mask/   # Mask checkpoints and training metadata
+outputs/sciplex3_r1_s1_set4/   # Diffusion checkpoints and metadata
+outputs/sciplex3_r1_s1_mask/   # Mask checkpoints and metadata
 ```
 
-The defaults use one GPU. To select a device, prefix a command with
-`CUDA_VISIBLE_DEVICES=0`. To use another data location, set
-`SCDVD_DATA_ROOT=/absolute/path/to/data` or pass `paths.data_root=...`.
-See [Running experiments](docs/usage.md) for CPU overrides, custom output paths,
-configuration changes and all-repeat execution.
+Training uses one GPU by default. To select a GPU, prefix the command with `CUDA_VISIBLE_DEVICES=0`. To change the data location, set `SCDVD_DATA_ROOT=/absolute/path/to/data` or pass `paths.data_root=...`.
+
+For alternative devices, output paths, and running all repeats, see [Running experiments](docs/usage.md).
 
 ## Evaluation
 
-Use the best-validation diffusion checkpoint and the mask checkpoint from the
-**same dataset, repeat and split**. Substitute the paths printed during training:
+Evaluate with the **best-validation diffusion checkpoint** and the **mask checkpoint from the same dataset, repeat, and split**:
 
 ```bash
 scdvd evaluate --config-name sciplex3 repeat=1 split=1 \
@@ -177,29 +144,24 @@ scdvd evaluate --config-name sciplex3 repeat=1 split=1 \
   evaluation.split=ood evaluation.save_predictions=true
 ```
 
-Use `evaluation.split=test` for held-out conditions of training drugs. OOD
-evaluation uses held-out drugs. Outputs are written to
-`outputs/sciplex3_r1_s1/ood/` (or `test/`):
+Use `evaluation.split=ood` for held-out drugs or `evaluation.split=test` for held-out conditions of training drugs.
 
-| Output | Contents |
+Results are saved to `outputs/sciplex3_r1_s1/ood/` (or `test/`):
+
+| Output | Description |
 |---|---|
-| `condition_metrics.csv` | Per-condition ALL, DE20 and DE40 metrics |
-| `summary.csv`, `summary.json` | Condition-averaged evaluation metrics |
+| `condition_metrics.csv` | Per-condition metrics for ALL, DE20, and DE40 |
+| `summary.csv`, `summary.json` | Condition-averaged metrics |
 | `predictions/*.npz` | Optional `GT` and `scDVD` arrays with gene/condition metadata |
-| `resolved_config.yaml`, `run_provenance.json` | Configuration, input paths and artifact hashes |
+| `resolved_config.yaml`, `run_provenance.json` | Configuration, input paths, and artifact hashes |
 
-Evaluation requires the prepared H5AD, molecular features and matching mask
-checkpoint in addition to the diffusion checkpoint. It evaluates conditions with
-observed GT; arbitrary-condition prediction is not exposed by this CLI.
+Evaluation requires prepared H5AD data, molecular features, and the matching mask checkpoint in addition to the diffusion checkpoint. The current CLI evaluates conditions with observed ground truth; arbitrary-condition prediction is not exposed through this command.
 
 ## Reproducibility
 
-The final benchmark uses **sciPlex3 fixed9** and **OP3 repeat7**, each with three
-repeats and five repeated condition holdouts. These are not disjoint CV folds.
-Both use the canonical set4 model. Exact split assignments and run identities
-are in [`benchmarks/`](benchmarks/README.md).
+The final benchmark uses **sciPlex3 fixed9** and **OP3 repeat7**, with **3 repetitions × 5 random condition-level holdouts** for each dataset. These are repeated holdouts, **not disjoint cross-validation folds**. The canonical model uses **K = 4**.
 
-Recreate the scDVD table entries from the included per-run metrics:
+Exact split assignments and run identities are provided in [`benchmarks/`](benchmarks/README.md). To aggregate the included per-run metrics into the scDVD table entries:
 
 ```bash
 python scripts/aggregate_results.py \
@@ -207,23 +169,43 @@ python scripts/aggregate_results.py \
   --output outputs/scdvd_set4_summary.csv
 ```
 
-This aggregates recorded results without training or inference. For exact model
-settings, mask checkpoint reuse, metric definitions and the scope of figure
-reproduction, see [Reproduction protocol](docs/reproduction.md).
+This command aggregates saved evaluation results; it does **not** run training or inference. See the [reproduction protocol](docs/reproduction.md) for model settings, mask checkpoint reuse, metric definitions, and the scope of figure reproduction.
+
+## Repository structure
+
+```text
+scDVD/
+├── configs/            # Dataset, model, and training configurations
+│   ├── sciplex3.yaml
+│   ├── op3.yaml
+│   ├── dataset/
+│   ├── model/
+│   └── training/
+├── src/scdvd/          # Model, data loaders, losses, and evaluation
+├── scripts/            # Training, evaluation, and data preparation
+├── examples/           # Synthetic CPU example
+├── benchmarks/         # Paper splits and recorded results
+├── docs/               # Guides and reproduction details
+├── tests/              # Model and data-contract checks
+├── tools/              # Checkpoint compatibility and source export
+├── environment.yml     # Conda environment
+└── requirements.txt    # Reference dependency versions
+```
+
+The `data/` and `outputs/` directories are created locally and excluded from Git. Unless otherwise noted, run commands from the repository root.
 
 ## Documentation
 
 | Guide | Contents |
 |---|---|
-| [Installation](docs/installation.md) | Python environment, CPU/CUDA wheels, troubleshooting |
-| [Data preparation](docs/data.md) | Original sources, asset availability, H5AD and feature format |
-| [Running experiments](docs/usage.md) | Configurations, training, evaluation, output paths |
-| [Model architecture](docs/method.md) · [한국어](docs/method_ko.md) | Diagram, mean/cell/population pathways, objective, generation and masking |
-| [Reproduction protocol](docs/reproduction.md) | Final experiments, aggregation and checkpoint compatibility |
-| [Development and releases](docs/development.md) | Tests, package builds and source export |
-| [Validation record](docs/validation.md) | Tested environments, execution checks and checkpoint comparisons |
+| [Installation](docs/installation.md) | Environment setup, CPU/CUDA builds, troubleshooting |
+| [Data preparation](docs/data.md) | Sources, preprocessing conventions, required inputs |
+| [Running experiments](docs/usage.md) | Configurations, training, evaluation, outputs |
+| [Model architecture](docs/method.md) · [한국어](docs/method_ko.md) | Architecture, response decomposition, objective, masking |
+| [Reproduction protocol](docs/reproduction.md) | Evaluation splits, aggregation, checkpoint compatibility |
+| [Development and releases](docs/development.md) | Tests, package builds, source export |
+| [Validation record](docs/validation.md) | Tested environments, execution and checkpoint checks |
 
 ## Citation
 
-Author, title and software metadata are provided in [CITATION.cff](CITATION.cff).
-A publication DOI and project license have not yet been assigned.
+Author, title, and software metadata are available in [CITATION.cff](CITATION.cff). A publication DOI and project license have not yet been assigned.
