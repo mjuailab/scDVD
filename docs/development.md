@@ -10,9 +10,12 @@ files live in the top-level `configs/` directory and are installed as the
 installs and built wheels use the same configurations. After adding a new Python
 subpackage, update the explicit package list in `pyproject.toml`.
 
-User entry points live in `scripts/`; maintenance utilities live in `tools/`.
-`benchmarks/` contains exact splits and recorded metrics. Keep large datasets,
-checkpoints and experiment outputs outside the tracked source tree.
+Training and evaluation use the installed `scdvd` command. Data preparation,
+table aggregation and the synthetic example live in `scripts/`; release and
+checkpoint utilities live in `scripts/dev/`. Documentation and README images
+live in `docs/`, with images under `docs/assets/`. `benchmarks/` contains exact
+splits and recorded metrics. Keep large datasets, checkpoints and experiment
+outputs outside the tracked source tree.
 
 ## Checks
 
@@ -22,8 +25,8 @@ After following [Installation](installation.md):
 python -m unittest discover -s tests -v
 scdvd train --config-name sciplex3 --cfg job
 scdvd evaluate --config-name op3 --cfg job
-python examples/cpu_demo.py --output outputs/cpu_demo_check
-python examples/cpu_demo.py --config-name op3 --evaluation-split ood --output outputs/op3_demo_check
+python scripts/cpu_demo.py --output outputs/cpu_demo_check
+python scripts/cpu_demo.py --config-name op3 --evaluation-split ood --output outputs/op3_demo_check
 ```
 
 The tests cover loss values, balanced sampling, split isolation, padding,
@@ -48,11 +51,11 @@ checkout; a wheel alone is not the full benchmark bundle.
 ## Export the complete source bundle
 
 ```bash
-python tools/export_release.py --output ../scDVD_source.tar.gz
+python scripts/dev/export_release.py --output ../scDVD_source.tar.gz
 ```
 
-The exporter includes source, configurations, requirements, documentation,
-examples, tests and benchmark definitions. It excludes local data, checkpoints,
+The exporter includes source, configurations, requirements, documentation and
+images, scripts, tests and benchmark definitions. It excludes local data, checkpoints,
 outputs, private manifests and the manuscript PDF. It refuses to overwrite an
 existing archive and does not upload it.
 
@@ -60,17 +63,16 @@ existing archive and does not upload it.
 
 | Previous path | Current path |
 |---|---|
-| `src/scdvd/configs/` | `configs/` (still installed as `scdvd.configs`) |
-| `paper/` | `benchmarks/` |
-| `requirements/paper.txt` | `requirements.txt` |
-| `train.py`, `train_mask.py`, `evaluate_diffusion.py` | `scripts/train.py`, `scripts/train_mask.py`, `scripts/evaluate.py` |
-| `scripts/verify_frozen_compatibility.py` | `tools/verify_frozen_compatibility.py` |
-| `scripts/export_release.py` | `tools/export_release.py` |
+| `assets/` | `docs/assets/` |
+| `examples/cpu_demo.py` | `scripts/cpu_demo.py` |
+| `tools/` | `scripts/dev/` |
+| `scripts/train.py`, `scripts/train_mask.py`, `scripts/evaluate.py` | `scdvd train`, `scdvd train-mask`, `scdvd evaluate` |
+| Root `scdvd` and `config` compatibility links | Install the package; source lives in `src/scdvd/` and settings in `configs/` |
 
 The `scdvd train`, `scdvd train-mask` and `scdvd evaluate` commands are unchanged.
 Model module paths, checkpoint parameter names, numerical settings and recorded
-benchmark files are retained. Reinstall editable packages after updating the
-checkout so the relocated configuration package is registered.
+benchmark files are retained. Use an installed package (editable or wheel) for
+imports; the repository root no longer provides import/configuration aliases.
 
 ## Release metadata
 

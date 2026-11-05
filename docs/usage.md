@@ -5,7 +5,7 @@
 Run these commands from the repository root after installation. Training and
 benchmark evaluation require the prepared H5AD and molecular features described
 in the data guide. For a self-contained execution example, use
-`python examples/cpu_demo.py --output outputs/cpu_demo`.
+`python scripts/cpu_demo.py --output outputs/cpu_demo`.
 
 ## Configuration
 
@@ -148,14 +148,13 @@ show the schema. See [Reproduction protocol](reproduction.md) for aggregation.
 
 ## Python entry points
 
-The CLI, module entry point and scripts call the same implementations:
+Use the installed `scdvd` command or the equivalent Python module entry point:
 
 ```bash
 python -m scdvd train --config-name sciplex3 --cfg job
-python scripts/train.py --config-name sciplex3 --cfg job
-python scripts/train_mask.py --config-name sciplex3 --cfg job
-python scripts/evaluate.py --config-name sciplex3 --cfg job
+python -m scdvd train-mask --config-name sciplex3 --cfg job
+python -m scdvd evaluate --config-name sciplex3 --cfg job
 ```
 
-Install the package before invoking scripts. Existing imports under
+Install the package before running these commands. Existing imports under
 `scdvd.models`, `scdvd.module` and `scdvd.checkpoints` retain their module paths.

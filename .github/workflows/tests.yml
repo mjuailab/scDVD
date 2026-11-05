@@ -27,5 +27,5 @@ jobs:
       - name: Exercise the installed package on both dataset mappings
         working-directory: ${{ runner.temp }}
         run: |
-          python "$GITHUB_WORKSPACE/examples/cpu_demo.py" --output "$RUNNER_TEMP/scdvd-demo"
-          python "$GITHUB_WORKSPACE/examples/cpu_demo.py" --config-name op3 --evaluation-split ood --output "$RUNNER_TEMP/scdvd-op3-demo"
+          python "$GITHUB_WORKSPACE/scripts/cpu_demo.py" --output "$RUNNER_TEMP/scdvd-demo"
+          python "$GITHUB_WORKSPACE/scripts/cpu_demo.py" --config-name op3 --evaluation-split ood --output "$RUNNER_TEMP/scdvd-op3-demo"

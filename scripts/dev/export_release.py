@@ -7,8 +7,7 @@ import tarfile
 
 FILES = ('README.md', 'pyproject.toml', 'CITATION.cff', '.gitignore',
          'environment.yml', 'requirements.txt')
-DIRECTORIES = ('src', 'configs', 'scripts', 'tools', 'tests', 'docs',
-               'examples', 'benchmarks', '.github')
+DIRECTORIES = ('src', 'configs', 'scripts', 'tests', 'docs', 'benchmarks', '.github')
 
 
 def release_files(root):
@@ -30,7 +29,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
-    root = Path(__file__).resolve().parents[1]
+    root = Path(__file__).resolve().parents[2]
     if args.output.exists():
         raise FileExistsError(args.output)
     files = list(release_files(root))

@@ -56,10 +56,11 @@ preserves reference split membership when regrouping size-four sets.
 
 Loss functions are now in `scdvd.losses` and remain re-exported from
 `scdvd.module`. Checkpoint class paths and parameter names remain stable.
-Entry-point code lives in the installable package, with wrappers in `scripts/`.
+Training and evaluation entry points live in the installable package and are
+available through `scdvd` or `python -m scdvd`.
 
 ```bash
-python tools/verify_frozen_compatibility.py \
+python scripts/dev/verify_frozen_compatibility.py \
   --reference /path/to/final_run/source \
   --checkpoint /path/to/final_run/checkpoint.ckpt \
   --output outputs/compatibility.json

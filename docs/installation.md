@@ -110,7 +110,7 @@ uses the ranges in `pyproject.toml`; this is not the reference environment.
 ```bash
 python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
 scdvd train --config-name sciplex3 --cfg job
-python examples/cpu_demo.py --output outputs/cpu_demo
+python scripts/cpu_demo.py --output outputs/cpu_demo
 ```
 
 `--cfg job` prints the configuration without loading data or starting training.
